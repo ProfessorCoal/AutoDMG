@@ -30,23 +30,39 @@ remove_tempdirs() {
 }
 
 eject_dmg() {
-    local mountpath="$1"
-    if [[ -d "$mountpath" ]]; then
-        if ! hdiutil eject "$mountpath"; then
+    local mountdev="$1"
+    local result="failure"
+    if [[ -e "$mountdev" ]]; then
+        if ! hdiutil eject -verbose "$mountdev"; then
             for tries in {1..10}; do
-                sleep $tries
-                if hdiutil eject "$mountpath" -force 2>/dev/null; then
-                    break
+                if [[ -e "$mountdev" ]]; then
+                    echo "IED:MSG:Ejecting '$mountdev' failed, force attempt $tries…"
+                    sleep $tries
+                    if hdiutil eject -verbose "$mountdev" -force; then
+                        echo "IED:MSG:Forcefully ejected '$mountdev'"
+                        result="success"
+                        break
+                    fi
+                else
+                    echo "IED:MSG:'$mountdev' disappeared"
+                    hdiutil info
                 fi
             done
+        else
+            echo "IED:MSG:Ejected '$mountdev'"
+            result="success"
         fi
+    fi
+    if [[ "$result" != "success" ]]; then
+        echo "IED:MSG:Ejecting '$mountdev' failed, giving up!"
     fi
 }
 
 declare -a dmgmounts
 unmount_dmgs() {
-    for mountpath in "${dmgmounts[@]}"; do
-        eject_dmg "$mountpath"
+    for mountdev in "${dmgmounts[@]}"; do
+        echo "IED:MSG:Ejecting '$mountdev'"
+        eject_dmg "$mountdev"
     done
     unset dmgmounts
 }
@@ -84,7 +100,7 @@ else
 fi
 
 # Get a work directory and check free space.
-tempdir=$(mktemp -d -t installesdtodmg)
+tempdir=$(mktemp -d "${TMPDIR:-/tmp/}installesdtodmg.XXXXXXXX")
 tempdirs+=("$tempdir")
 freespace=$(df -g "$tempdir" | tail -1 | awk '{print $4}')
 if [[ "$freespace" -lt 15 ]]; then
@@ -93,24 +109,64 @@ if [[ "$freespace" -lt 15 ]]; then
 fi
 
 
+# Keep track of version and build numbers before and after installing updates.
+read_nvb() {
+    local root="$1"
+    if [[ "$root" == "/" ]]; then
+        root=""
+    fi
+    local path="$root/System/Library/CoreServices/SystemVersion.plist"
+    if [[ -f "$path" ]]; then
+        name=$(/usr/libexec/PlistBuddy -c "print :ProductName" "$path")
+        version=$(/usr/libexec/PlistBuddy -c "print :ProductUserVisibleVersion" "$path")
+        build=$(/usr/libexec/PlistBuddy -c "print :ProductBuildVersion" "$path")
+        echo "$name/$version/$build"
+    fi
+}
+
+start_nvb=""
+
+
 # Create and mount a sparse image.
 echo "IED:PHASE:sparseimage"
 echo "IED:MSG:Creating disk image"
 if [[ -z "$sysimg" ]]; then
     sparsedmg="$tempdir/os.sparseimage"
-    hdiutil create -size "${size}g" -type SPARSE -fs HFS+J -volname "$volname" -uid 0 -gid 80 -mode 1775 "$sparsedmg"
-    sparsemount=$(hdiutil attach -nobrowse -noautoopen -noverify -owners on "$sparsedmg" | grep Apple_HFS | cut -f3)
+    if ! hdiutil create -size "${size}g" -type SPARSE -fs HFS+J -volname "$volname" -uid 0 -gid 80 -mode 1775 "$sparsedmg"; then
+        echo "IED:FAILURE:Failed to create disk image for install"
+        exit 101
+    fi
+    mountoutput=$(hdiutil attach -nobrowse -noautoopen -noverify -owners on "$sparsedmg")
+    declare -i result=$?
+    if [[ $result -ne 0 ]]; then
+        echo "IED:FAILURE:Failed to mount disk image for install, return code $result"
+        exit 101
+    fi
+    mountresult=$(grep Apple_HFS <<< "$mountoutput")
+    sparsemount=$(echo "$mountresult" | cut -f3)
+    dmgmounts+=( $(echo "$mountresult" | cut -f1) )
 else
     shadowfile="$tempdir/autodmg.shadow"
-    shadowdev=$(hdiutil attach -shadow "$shadowfile" -nobrowse -noautoopen -noverify -owners on "$sysimg" \
-                | grep Apple_HFS \
-                | awk '{print $1}')
+    shadowoutput=$(hdiutil attach -shadow "$shadowfile" -nobrowse -noautoopen -noverify -owners on "$sysimg")
+    declare -i result=$?
+    if [[ $result -ne 0 ]]; then
+        echo "IED:FAILURE:Failed to create shadow image for install, return code $result"
+        exit 101
+    fi
+    shadowdev=$(echo "$shadowoutput" | grep Apple_HFS | awk '{print $1}')
     echo "IED:MSG:Renaming $shadowdev to $volname"
     echo "IED:MSG:Renaming volume"
-    diskutil rename "$shadowdev" "$volname"
+    if ! diskutil rename "$shadowdev" "$volname"; then
+        echo "IED:FAILURE:Failed to rename install volume"
+        exit 101
+    fi
+    dmgmounts+=("$shadowdev")
     sparsemount=$(hdiutil info | grep "^$shadowdev" | cut -f3)
+    # If we're using a system image as the source, read the version and build
+    # numbers before the first install.
+    start_nvb=$(read_nvb "$sparsemount")
 fi
-dmgmounts+=("$sparsemount")
+
 
 # Install OS and packages.
 export COMMAND_LINE_INSTALL=1
@@ -152,17 +208,38 @@ for package; do
             installer -verboseR -dumplog -pkg "$package" -target "$sparsemount"
             declare -i result=$?
             if [[ $result -ne 0 ]]; then
-                if [[ $pkgnum -eq 1 ]]; then
-                    pkgname="OS install"
-                else
-                    pkgname=$(basename "$package")
-                fi
-                echo "IED:FAILURE:$pkgname failed with return code $result"
+                echo "IED:FAILURE:$(basename "$package") failed with return code $result"
                 exit 102
             fi
         fi
+        # Detect system language on 10.10+. Default to Finnish if detection fails.
+        if [[ $(sw_vers -productVersion | cut -d. -f2) -ge 10 ]]; then
+            if [[ $(basename "$package") == "OSInstall.mpkg" ]]; then
+                mkdir -p -m 0755 "$sparsemount/private/var/log"
+                chown root:wheel "$sparsemount/private"
+                chown root:wheel "$sparsemount/private/var"
+                chown root:wheel "$sparsemount/private/var/log"
+                if lang=$(python -c "from Foundation import NSLocale, NSLocaleLanguageCode; print NSLocale.currentLocale()[NSLocaleLanguageCode]" 2>/dev/null); then
+                    echo "LANGUAGE=$lang" > "$sparsemount/private/var/log/CDIS.custom"
+                    echo "IED:MSG:Setup Assistant language set to '$lang'"
+                else
+                    echo "IED:MSG:Failed to retrieve language preference, setting Setup Assistant to Finnish"
+                    echo "LANGUAGE=fi" > "$sparsemount/private/var/log/CDIS.custom"
+                fi
+                chown root:wheel "$sparsemount/private/var/log/CDIS.custom"
+            fi
+        fi
+    fi
+    if [[ -z "$start_nvb" ]]; then
+        start_nvb=$(read_nvb "$sparsemount")
     fi
 done
+if [[ $TESTING == "yes" ]]; then
+    start_nvb="Mac OS X/9.0/53X248"
+    end_nvb="macOS/10.64.1/64X738"
+else
+    end_nvb=$(read_nvb "$sparsemount")
+fi
 # Stop watching /var/log/install.log.
 echo "IED:WATCHLOG:STOP"
 
@@ -195,6 +272,19 @@ echo "IED:MSG:Changing owner"
 if ! chown "${user}:$group" "$compresseddmg"; then
     echo "IED:FAILURE:Ownership change failed"
     exit 105
+fi
+
+
+# Report result.
+echo "IED:SUCCESS:OUTPUT_PATH='$compresseddmg'"
+name=$(echo "$end_nvb" | cut -d/ -f1)
+version=$(echo "$end_nvb" | cut -d/ -f2)
+build=$(echo "$end_nvb" | cut -d/ -f3)
+echo "IED:SUCCESS:OUTPUT_OSNAME='$name'"
+echo "IED:SUCCESS:OUTPUT_OSVERSION='$version'"
+echo "IED:SUCCESS:OUTPUT_OSBUILD='$build'"
+if [[ "$start_nvb" != "$end_nvb" ]]; then
+    echo "IED:SUCCESS:Notice: OS version changed from $(echo $start_nvb | tr "/" " ") to $(echo $end_nvb | tr "/" " ")"
 fi
 
 exit 0

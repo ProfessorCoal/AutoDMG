@@ -4,8 +4,10 @@
 #  AutoDMG
 #
 #  Created by Per Olofsson on 2013-09-19.
-#  Copyright 2013-2014 Per Olofsson, University of Gothenburg. All rights reserved.
+#  Copyright 2013-2016 Per Olofsson, University of Gothenburg. All rights reserved.
 #
+
+from __future__ import unicode_literals
 
 from Foundation import *
 from AppKit import *
@@ -35,10 +37,7 @@ def checkSource_(self, sender):
     if len(filenames) != 1:
         return None
     path = IEDUtil.resolvePath_(filenames[0])
-    if os.path.exists(os.path.join(path,
-                      u"Contents/SharedSupport/InstallESD.dmg")):
-        return path
-    elif path.lower().endswith(u".dmg"):
+    if IEDUtil.mightBeSource_(path):
         return path
     else:
         return None

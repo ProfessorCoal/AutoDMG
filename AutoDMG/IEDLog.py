@@ -4,15 +4,18 @@
 #  AutoDMG
 #
 #  Created by Per Olofsson on 2013-10-25.
-#  Copyright 2013-2014 Per Olofsson, University of Gothenburg. All rights reserved.
+#  Copyright 2013-2016 Per Olofsson, University of Gothenburg. All rights reserved.
 #
 
+from __future__ import unicode_literals
+from __future__ import print_function
 
 from Foundation import *
 from AppKit import *
 from objc import IBAction, IBOutlet
 
 from IEDLogLine import *
+from IEDPanelPathManager import *
 import inspect
 import syslog
 import sys
@@ -27,6 +30,16 @@ IEDLogLevelWarning   = 4
 IEDLogLevelNotice    = 5
 IEDLogLevelInfo      = 6
 IEDLogLevelDebug     = 7
+IEDColorForLevel = [
+    NSColor.redColor(),
+    NSColor.redColor(),
+    NSColor.redColor(),
+    NSColor.redColor(),
+    NSColor.orangeColor(),
+    NSColor.blackColor(),
+    NSColor.blackColor(),
+    NSColor.grayColor(),
+]
 
 # Control which output channels are active.
 IEDLogToController  = True
@@ -47,14 +60,14 @@ defaults = NSUserDefaults.standardUserDefaults()
 
 def IEDLogLevelName(level):
     return (
-        u"Emergency",
-        u"Alert",
-        u"Critical",
-        u"Error",
-        u"Warning",
-        u"Notice",
-        u"Info",
-        u"Debug",
+        "Emergency",
+        "Alert",
+        "Critical",
+        "Error",
+        "Warning",
+        "Notice",
+        "Info",
+        "Debug",
     )[level]
 
 
@@ -66,12 +79,12 @@ def LogException(func):
             func(c, s)
         except Exception as e:
             exceptionInfo = traceback.format_exc()
-            LogDebug(u"Uncaught exception in %@, %@", func.__name__, exceptionInfo.rstrip())
+            LogDebug("Uncaught exception in %@, %@", func.__name__, exceptionInfo.rstrip())
             alert = NSAlert.alloc().init()
-            alert.setMessageText_(u"Uncaught exception")
+            alert.setMessageText_("Uncaught exception")
             alert.setInformativeText_(exceptionInfo)
-            alert.addButtonWithTitle_(u"Dismiss")
-            alert.addButtonWithTitle_(u"Save Log…")
+            alert.addButtonWithTitle_("Dismiss")
+            alert.addButtonWithTitle_("Save Log…")
             while alert.runModal() == NSAlertSecondButtonReturn:
                 _log.saveLog_(IEDLog.IEDLog, None)
     return wrapper
@@ -102,8 +115,10 @@ class IEDLog(NSObject):
     
     def awakeFromNib(self):
         global defaults
-        self.levelSelector.selectItemAtIndex_(defaults.integerForKey_(u"LogLevel"))
+        self.levelSelector.selectItemAtIndex_(defaults.integerForKey_("LogLevel"))
         self.logTableView.setDataSource_(self)
+        self.logTableView.setDelegate_(self)
+        self.messageColumnWidth = self.logTableView.tableColumnWithIdentifier_("message").width()
         nc = NSNotificationCenter.defaultCenter()
         nc.addObserver_selector_name_object_(self,
                                              self.logViewScrolled_,
@@ -114,9 +129,18 @@ class IEDLog(NSObject):
     
     
     def addMessage_level_(self, message, level):
+        # Log messages may come from background threads.
+        self.performSelectorOnMainThread_withObject_waitUntilDone_(self.addMessageAndLevel_,
+                                                                   {"message": message,
+                                                                    "level": level},
+                                                                   False)
+    
+    def addMessageAndLevel_(self, messageAndLevel):
+        message = messageAndLevel["message"]
+        level = messageAndLevel["level"]
         logLine = IEDLogLine.alloc().initWithMessage_level_(message, level)
         self.logLines.append(logLine)
-        if defaults.integerForKey_(u"LogLevel") >= level:
+        if defaults.integerForKey_("LogLevel") >= level:
             self.visibleLogLines.append(logLine)
             if self.logTableView:
                 self.logTableView.reloadData()
@@ -166,16 +190,20 @@ class IEDLog(NSObject):
     @LogException
     @IBAction
     def saveLog_(self, sender):
+        IEDPanelPathManager.loadPathForName_("Log")
+        
         panel = NSSavePanel.savePanel()
         panel.setExtensionHidden_(False)
-        panel.setAllowedFileTypes_([u"log", u"txt"])
+        panel.setAllowedFileTypes_(["log", "txt"])
         formatter = NSDateFormatter.alloc().init()
-        formatter.setDateFormat_(u"yyyy-MM-dd HH.mm")
+        formatter.setDateFormat_("yyyy-MM-dd HH.mm")
         dateStr = formatter.stringFromDate_(NSDate.date())
-        panel.setNameFieldStringValue_(u"AutoDMG %s" % dateStr)
+        panel.setNameFieldStringValue_("AutoDMG %s" % dateStr)
         result = panel.runModal()
         if result != NSFileHandlingPanelOKButton:
             return
+        
+        IEDPanelPathManager.savePathForName_("Log")
         
         exists, error = panel.URL().checkResourceIsReachableAndReturnError_(None)
         if exists:
@@ -194,9 +222,9 @@ class IEDLog(NSObject):
             NSAlert.alertWithError_(error).runModal()
             return
         formatter = NSDateFormatter.alloc().init()
-        formatter.setDateFormat_(u"yyyy-MM-dd HH:mm:ss")
+        formatter.setDateFormat_("yyyy-MM-dd HH:mm:ss")
         for logLine in self.logLines:
-            textLine = NSString.stringWithFormat_(u"%@ %@: %@\n",
+            textLine = NSString.stringWithFormat_("%@ %@: %@\n",
                                                   formatter.stringFromDate_(logLine.date()),
                                                   IEDLogLevelName(logLine.level()),
                                                   logLine.message())
@@ -210,13 +238,43 @@ class IEDLog(NSObject):
     def numberOfRowsInTableView_(self, tableView):
         return len(self.visibleLogLines)
     
+    def attrString_forRow_(self, s, row):
+        color = IEDColorForLevel[self.visibleLogLines[row].level()]
+        attr = {NSForegroundColorAttributeName: color}
+        return NSAttributedString.alloc().initWithString_attributes_(s, attr)
+    
     def tableView_objectValueForTableColumn_row_(self, tableView, column, row):
-        if column.identifier() == u"date":
+        if column.identifier() == "date":
             return self.visibleLogLines[row].date()
-        elif column.identifier() == u"level":
-            return IEDLogLevelName(self.visibleLogLines[row].level())
-        elif column.identifier() == u"message":
-            return self.visibleLogLines[row].message()
+        elif column.identifier() == "level":
+            return self.attrString_forRow_(IEDLogLevelName(self.visibleLogLines[row].level()), row)
+        elif column.identifier() == "message":
+            return self.attrString_forRow_(self.visibleLogLines[row].message(), row)
+        else:
+            LogDebug("Unexpected column identifier '%@'", column.identifier())
+    
+    
+    
+    # We're an NSTableViewDelegate.
+    
+    def tableViewColumnDidResize_(self, notification):
+        self.messageColumnWidth = self.logTableView.tableColumnWithIdentifier_("message").width()
+        changeRange = NSMakeRange(0, self.logTableView.numberOfRows())
+        changeSet = NSIndexSet.indexSetWithIndexesInRange_(changeRange)
+        NSAnimationContext.beginGrouping()
+        NSAnimationContext.currentContext().setDuration_(0.0)
+        self.logTableView.noteHeightOfRowsWithIndexesChanged_(changeSet)
+        NSAnimationContext.endGrouping()
+    
+    def tableView_heightOfRow_(self, tableView, row):
+        text = NSString.stringWithString_(self.visibleLogLines[row].message())
+        font = NSFont.userFixedPitchFontOfSize_(11.0)
+        rect = text.boundingRectWithSize_options_attributes_context_(NSMakeSize(self.messageColumnWidth - 4, 1000),
+                                                                     NSStringDrawingUsesLineFragmentOrigin,
+                                                                     {NSFontAttributeName: font},
+                                                                     None)
+        return rect.size.height
+
 
 
 timestampFormatter = NSDateFormatter.alloc().init()
@@ -235,18 +293,18 @@ def LogToSyslog(level, message):
 
 
 def LogToStdOut(level, message):
-    print >>sys.stdout, message.encode(u"utf-8")
+    print(message.encode("utf-8"), file=sys.stdout)
 
 
 def LogToFile(level, message):
     global IEDLogFileHandle
     if IEDLogFileHandle is not None:
-        print >>IEDLogFileHandle, \
-            NSString.stringWithFormat_(u"%@  %@",
-                                       timestamp(),
-                                       message).encode(u"utf-8")
+        print(NSString.stringWithFormat_("%@  %@",
+                                         timestamp(),
+                                         message).encode("utf-8"),
+                                         file=IEDLogFileHandle)
     else:
-        NSLog(u"IEDLogFileHandle not open")
+        NSLog("IEDLogFileHandle not open")
 
 
 # Keep (singleton) instance of IEDLog.
@@ -256,24 +314,24 @@ def LogMessage(level, message):
     global _log
     
     # Prefix debug messages with the module name and line number.
-    prefix = u""
+    prefix = ""
     if level == IEDLogLevelDebug:
         for caller in inspect.stack()[1:]:
             modname = inspect.getmodule(caller[0]).__name__
-            if modname == u"IEDLog":
+            if modname == "IEDLog":
                 continue
             lineno = caller[2]
-            prefix = u"(%s:%d) " % (modname, lineno)
+            prefix = "(%s:%d) " % (modname, lineno)
             break
     
     # Control syslog verbosity with DebugToSyslog bool.
-    if defaults.boolForKey_(u"DebugToSyslog"):
+    if defaults.boolForKey_("DebugToSyslog"):
         syslogLevel = IEDLogLevelDebug
     else:
         syslogLevel = IEDLogLevelInfo
     
     # Log each line as a separate message.
-    for line in message.split(u"\n"):
+    for line in message.split("\n"):
         
         # Prepend prefix.
         prefixedLine = prefix + line

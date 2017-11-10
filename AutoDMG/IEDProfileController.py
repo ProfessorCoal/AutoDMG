@@ -4,8 +4,10 @@
 #  AutoDMG
 #
 #  Created by Per Olofsson on 2013-10-21.
-#  Copyright 2013-2014 Per Olofsson, University of Gothenburg. All rights reserved.
+#  Copyright 2013-2016 Per Olofsson, University of Gothenburg. All rights reserved.
 #
+
+from __future__ import unicode_literals
 
 from AppKit import *
 from Foundation import *
@@ -14,6 +16,7 @@ from objc import IBOutlet
 import os.path
 from collections import defaultdict
 from IEDLog import LogDebug, LogInfo, LogNotice, LogWarning, LogError, LogMessage
+from IEDUtil import *
 
 
 class IEDProfileController(NSObject):
@@ -33,10 +36,10 @@ class IEDProfileController(NSObject):
                                                                                  None,
                                                                                  True,
                                                                                  None)
-        self.userUpdateProfilesPath = os.path.join(url.path(), u"AutoDMG", u"UpdateProfiles.plist")
+        self.userUpdateProfilesPath = os.path.join(url.path(), "AutoDMG", "UpdateProfiles.plist")
         
         # Load UpdateProfiles from the application bundle.
-        bundleUpdateProfilesPath = NSBundle.mainBundle().pathForResource_ofType_(u"UpdateProfiles", u"plist")
+        bundleUpdateProfilesPath = NSBundle.mainBundle().pathForResource_ofType_("UpdateProfiles", "plist")
         bundleUpdateProfiles = NSDictionary.dictionaryWithContentsOfFile_(bundleUpdateProfilesPath)
         
         latestProfiles = self.updateUsersProfilesIfNewer_(bundleUpdateProfiles)
@@ -50,11 +53,11 @@ class IEDProfileController(NSObject):
         """Return the update profile for a certain OS X version and build."""
         
         try:
-            profile = self.profiles[u"%s-%s" % (version, build)]
-            LogInfo(u"Update profile for %@ %@: %@", version, build, u", ".join(u[u"name"] for u in profile))
+            profile = self.profiles["%s-%s" % (version, build)]
+            LogInfo("Update profile for %@ %@: %@", version, build, ", ".join(u["name"] for u in profile))
         except KeyError:
             profile = None
-            LogNotice(u"No update profile for %@ %@", version, build)
+            LogNotice("No update profile for %@ %@", version, build)
         return profile
     
     def whyNoProfileForVersion_build_(self, whyVersion, whyBuild):
@@ -62,33 +65,43 @@ class IEDProfileController(NSObject):
         provide a helpful explanation as to why that might be."""
         
         # Check if it has been deprecated.
+        LogDebug("Checking if %@ has been deprecated", whyBuild)
         try:
             replacement = self.deprecatedInstallerBuilds[whyBuild]
-            version, _, build = replacement.partition(u"-")
-            return u"Installer deprecated by %s %s" % (version, build)
+            version, _, build = replacement.partition("-")
+            LogDebug("Installer deprecated by %@ %@", version, build)
+            return "Installer deprecated by %s %s" % (version, build)
         except KeyError:
             pass
         
-        whyVersionTuple = tuple(int(x) for x in whyVersion.split(u"."))
+        whyVersionTuple = IEDUtil.splitVersion(whyVersion)
         whyMajor = whyVersionTuple[1]
         whyPoint = whyVersionTuple[2] if len(whyVersionTuple) > 2 else None
         
         buildsForVersion = defaultdict(set)
         supportedMajorVersions = set()
         supportedPointReleases = defaultdict(set)
-        for versionBuild in self.profiles.keys():
-            version, _, build = versionBuild.partition(u"-")
+        for versionBuild in self.profiles.iterkeys():
+            version, _, build = versionBuild.partition("-")
             buildsForVersion[version].add(build)
-            versionTuple = tuple(int(x) for x in version.split(u"."))
+            versionTuple = IEDUtil.splitVersion(version)
             major = versionTuple[1]
             supportedMajorVersions.add(major)
-            point = versionTuple[2] if len(versionTuple) > 2 else None
+            point = versionTuple[2] if len(versionTuple) > 2 else 0
             supportedPointReleases[major].add(point)
         
+        LogDebug("supported OS X versions: %@",
+                 ", ".join("10.%d" % x for x in sorted(supportedMajorVersions)))
+        LogDebug("supported point releases:")
+        for major, pointReleases in supportedPointReleases.iteritems():
+            LogDebug("    " + ", ".join("10.%d.%d" % (major, x) for x in sorted(pointReleases)))
+        
         if whyMajor not in supportedMajorVersions:
+            LogDebug("10.%d is not supported", whyMajor)
             return "10.%d is not supported" % whyMajor
         elif whyVersion in buildsForVersion:
-            return u"Unknown build %s" % whyBuild
+            LogDebug("Unknown build %@", whyBuild)
+            return "Unknown build %s" % whyBuild
         else:
             # It's a supported OS X version, but we don't have a profile for
             # this point release. Try to figure out if that's because it's too
@@ -97,59 +110,98 @@ class IEDProfileController(NSObject):
             oldestSupportedPointRelease = sorted(pointReleases)[0]
             newestSupportedPointRelease = sorted(pointReleases)[-1]
             if whyPoint < oldestSupportedPointRelease:
-                return u"Deprecated installer"
+                LogDebug("Deprecated installer")
+                return "Deprecated installer"
             elif whyPoint > newestSupportedPointRelease:
                 # If it's newer than any known release, just assume that we're
                 # behind on updates and that all is well.
-                return None
+                LogDebug("Installer newer than update profile")
+                return "Installer newer than update profile"
             else:
                 # Well this is awkward.
-                return u"Deprecated installer"
+                LogDebug("Unknown %@ installer", whyVersion)
+                return "Unknown %s installer" % whyVersion
     
     def updateUsersProfilesIfNewer_(self, plist):
         """Update the user's update profiles if plist is newer. Returns
            whichever was the newest."""
         
+        LogDebug("Update user's profile if needed")
+        
         # Load UpdateProfiles from the user's application support directory.
         userUpdateProfiles = NSDictionary.dictionaryWithContentsOfFile_(self.userUpdateProfilesPath)
         
-        # If the bundle's plist is newer, update the user's.
-        if (not userUpdateProfiles) or (userUpdateProfiles[u"PublicationDate"].timeIntervalSinceDate_(plist[u"PublicationDate"]) < 0):
-            LogDebug(u"Saving updated UpdateProfiles.plist")
+        # Ensure profile in plist supports current OS.
+        plistVersions = list(x.partition("-")[0] for x in plist["Profiles"].iterkeys())
+        plistMajors = sorted(IEDUtil.splitVersion(x)[1] for x in plistVersions)
+        osMajor = IEDUtil.hostVersionTuple()[1]
+        plistSupportsOS = osMajor in plistMajors
+        LogDebug("Profile %@ 10.%d",
+                 "supports" if plistSupportsOS else "does not support",
+                 osMajor)
+        
+        # If the plist is newer, update the user's.
+        userIsEmpty = not userUpdateProfiles
+        LogDebug("User profile %@", "is empty" if userIsEmpty else "is not empty")
+        if userUpdateProfiles:
+            userIsOlder = userUpdateProfiles["PublicationDate"].timeIntervalSinceDate_(plist["PublicationDate"]) < 0
+            LogDebug("User profile %@", "is older" if userIsOlder else "is not older")
+        else:
+            userIsOlder = True
+        if userIsEmpty or (userIsOlder and plistSupportsOS):
+            LogDebug("Saving updated UpdateProfiles.plist")
             self.saveUsersProfiles_(plist)
             return plist
         else:
+            LogDebug("Keeping previous UpdateProfiles.plist")
             return userUpdateProfiles
     
     def saveUsersProfiles_(self, plist):
         """Save UpdateProfiles.plist to application support."""
         
-        LogInfo(u"Saving update profiles with PublicationDate %@", plist[u"PublicationDate"])
+        LogInfo("Saving update profiles with PublicationDate %@", plist["PublicationDate"])
         if not plist.writeToFile_atomically_(self.userUpdateProfilesPath, False):
-            LogError(u"Failed to write %@", self.userUpdateProfilesPath)
+            LogError("Failed to write %@", self.userUpdateProfilesPath)
     
     def loadProfilesFromPlist_(self, plist):
         """Load UpdateProfiles from a plist dictionary."""
         
-        LogInfo(u"Loading update profiles with PublicationDate %@", plist[u"PublicationDate"])
+        LogInfo("Loading update profiles with PublicationDate %@", plist["PublicationDate"])
+        
         self.profiles = dict()
-        for name, updates in plist[u"Profiles"].iteritems():
+        for name, updates in plist["Profiles"].iteritems():
             profile = list()
             for update in updates:
-                profile.append(plist[u"Updates"][update])
+                profile.append(plist["Updates"][update])
             self.profiles[name] = profile
-        self.publicationDate = plist[u"PublicationDate"]
+        
+        self.publicationDate = plist["PublicationDate"]
+        
         self.updatePaths = dict()
-        for name, update in plist[u"Updates"].iteritems():
-            filename, ext = os.path.splitext(os.path.basename(update[u"url"]))
-            self.updatePaths[update[u"sha1"]] = u"%s(%s)%s" % (filename, update[u"sha1"][:7], ext)
+        for name, update in plist["Updates"].iteritems():
+            filename, ext = os.path.splitext(os.path.basename(update["url"]))
+            self.updatePaths[update["sha1"]] = "%s(%s)%s" % (filename, update["sha1"][:7], ext)
+        
         self.deprecatedInstallerBuilds = dict()
         try:
-            for replacement, builds in plist[u"DeprecatedInstallers"].iteritems():
+            for replacement, builds in plist["DeprecatedInstallers"].iteritems():
                 for build in builds:
                     self.deprecatedInstallerBuilds[build] = replacement
         except KeyError:
-            LogWarning(u"No deprecated installers")
+            LogWarning("No deprecated installers in profile")
+        
+        self.deprecatedOS = False
+        try:
+            hostVerMajor = IEDUtil.hostVersionTuple()[1]
+            for osVerStr in plist["DeprecatedOSVersions"]:
+                deprecatedVerMajor = IEDUtil.splitVersion(osVerStr)[1]
+                if hostVerMajor <= deprecatedVerMajor:
+                    self.deprecatedOS = True
+                    LogWarning("%@ is no longer being updated by Apple", osVerStr)
+                    break
+        except KeyError:
+            LogWarning("No deprecated OS versions in profile")
+        
         if self.delegate:
             self.delegate.profilesUpdated()
     
@@ -160,7 +212,7 @@ class IEDProfileController(NSObject):
     def updateFromURL_(self, url):
         """Download the latest UpdateProfiles.plist."""
         
-        LogDebug(u"updateFromURL:%@", url)
+        LogDebug("updateFromURL:%@", url)
         
         if self.profileUpdateWindow:
             # Show the progress window.
@@ -173,26 +225,26 @@ class IEDProfileController(NSObject):
         # Start download.
         request = NSURLRequest.requestWithURL_(url)
         self.connection = NSURLConnection.connectionWithRequest_delegate_(request, self)
-        LogDebug(u"connection = %@", self.connection)
+        LogDebug("connection = %@", self.connection)
         if not self.connection:
-            LogWarning(u"Connection to %@ failed", url)
+            LogWarning("Connection to %@ failed", url)
             if self.profileUpdateWindow:
                 self.profileUpdateWindow.orderOut_(self)
             self.delegate.profileUpdateFailed_(error)
     
     def connection_didFailWithError_(self, connection, error):
-        LogError(u"Profile update failed: %@", error)
+        LogError("Profile update failed: %@", error)
         if self.profileUpdateWindow:
             self.profileUpdateWindow.orderOut_(self)
         self.delegate.profileUpdateFailed_(error)
         self.delegate.profileUpdateAllDone()
     
     def connection_didReceiveResponse_(self, connection, response):
-        LogDebug(u"%@ status code %d", connection, response.statusCode())
+        LogDebug("%@ status code %d", connection, response.statusCode())
         if response.expectedContentLength() == NSURLResponseUnknownLength:
-            LogDebug(u"unknown response length")
+            LogDebug("unknown response length")
         else:
-            LogDebug(u"Downloading profile with %d bytes", response.expectedContentLength())
+            LogDebug("Downloading profile with %d bytes", response.expectedContentLength())
             if self.profileUpdateWindow:
                 self.progressBar.setMaxValue_(float(response.expectedContentLength()))
                 self.progressBar.setDoubleValue_(float(response.expectedContentLength()))
@@ -204,7 +256,7 @@ class IEDProfileController(NSObject):
             self.progressBar.setDoubleValue_(float(self.profileUpdateData.length()))
     
     def connectionDidFinishLoading_(self, connection):
-        LogDebug(u"Downloaded profile with %d bytes", self.profileUpdateData.length())
+        LogDebug("Downloaded profile with %d bytes", self.profileUpdateData.length())
         if self.profileUpdateWindow:
             # Hide the progress window.
             self.profileUpdateWindow.orderOut_(self)
@@ -216,16 +268,16 @@ class IEDProfileController(NSObject):
         if not plist:
             self.delegate.profileUpdateFailed_(error)
             return
-        LogNotice(u"Downloaded update profiles with PublicationDate %@", plist[u"PublicationDate"])
+        LogNotice("Downloaded update profiles with PublicationDate %@", plist["PublicationDate"])
         # Update the user's profiles if it's newer.
         latestProfiles = self.updateUsersProfilesIfNewer_(plist)
         # Load the latest profiles.
         self.loadProfilesFromPlist_(latestProfiles)
         # Notify delegate.
-        self.delegate.profileUpdateSucceeded_(latestProfiles[u"PublicationDate"])
+        self.delegate.profileUpdateSucceeded_(latestProfiles["PublicationDate"])
         self.delegate.profileUpdateAllDone()
     
     def cancelUpdateDownload(self):
-        LogInfo(u"User canceled profile update")
+        LogInfo("User canceled profile update")
         self.connection.cancel()
         self.profileUpdateWindow.orderOut_(self)
