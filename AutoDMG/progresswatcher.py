@@ -1,13 +1,10 @@
 #!/usr/bin/python
 
 # -*- coding: utf-8 -*-
-#
 #  progresswatcher.py
 #  AutoDMG
-#
 #  Created by Per Olofsson on 2013-09-26.
 #  Copyright 2013-2016 Per Olofsson, University of Gothenburg. All rights reserved.
-#
 
 
 import os
