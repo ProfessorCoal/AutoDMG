@@ -1,0 +1,5 @@
+
+A hackable text editor for the 21st Century
+
+Download
+Atom is a desktop text editor. Check back on your desktop computing device to download a copy.
