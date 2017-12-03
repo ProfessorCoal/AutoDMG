@@ -1,0 +1,975 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html prefix="og: http://ogp.me/ns#" xmlns="http://www.apple.com/itms/" lang="en">
+
+
+  <head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="keywords" content="Gladys, Pavlos Tsochantaris, Productivity, Utilities, ios apps, app, appstore, app store, iphone, ipad, ipod touch, itouch, itunes" /><meta name="description" content="Read reviews, compare customer ratings, see screenshots, and learn more about Gladys. Download Gladys and enjoy it on your iPhone, iPad, and iPod touch." /><meta name="platform-cache-id" content="8" /><meta name="apple:content_id" content="1257526927" /><meta content="Gladys on the App Store" property="og:title" /><meta content="Read reviews, compare customer ratings, see screenshots, and learn more about Gladys. Download Gladys and enjoy it on your iPhone, iPad, and iPod touch." property="og:description" /><meta content="App Store" property="og:site_name" /><meta content="116556461780510" property="fb:app_id" /><meta name="twitter:title" content="Gladys on the App Store" /><meta name="twitter:description" content="Read reviews, compare customer ratings, see screenshots, and learn more about Gladys. Download Gladys and enjoy it on your iPhone, iPad, and iPod touch." /><meta name="twitter:site" content="@AppStore" /><meta name="twitter:domain" content="App Store" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:image" content="http://is4.mzstatic.com/image/thumb/Purple122/v4/1a/0d/df/1a0ddf1f-89a7-b850-cef7-207d1c64849b/source/1200x630bb.jpg" /><meta content="http://is4.mzstatic.com/image/thumb/Purple122/v4/1a/0d/df/1a0ddf1f-89a7-b850-cef7-207d1c64849b/source/1200x630bb.jpg" property="og:image" /><meta content="https://is4-ssl.mzstatic.com/image/thumb/Purple122/v4/1a/0d/df/1a0ddf1f-89a7-b850-cef7-207d1c64849b/source/1200x630bb.jpg" property="og:image:secure_url" /><meta content="image/jpg" property="og:image:type" /><meta content="1200" property="og:image:width" /><meta content="630" property="og:image:height" />
+<link rel="canonical" href="https://itunes.apple.com/us/app/gladys/id1257526927?mt=8" />
+
+
+<title>Gladys on the App Store</title>
+
+
+
+
+
+
+<script>
+if (!window.its) {
+    window.its = {};
+}
+its.markupLoadStartTime = new Date().getTime();
+
+if (!window.onerror) window.onerror = function(message, url, lineNumber) {
+    if (!window._earlyOnerrorException) {
+        window._earlyOnerrorException = {message: message,
+                                         url: url,
+                                         lineNumber: lineNumber};
+    }
+};
+</script>
+
+
+    
+    <link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/50e8/web-storefront-base.css" />
+<link charset="utf-8" rel="stylesheet" type="text/css" href="https://s.mzstatic.com/htmlResources/50e8/web-storefront-preview.css" />
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+<script type="text/javascript" charset="utf-8" src="/htmlResources/50e8/frameworks-primaryinit01.js"></script>
+
+
+
+
+
+
+
+
+<script type="text/javascript" charset="utf-8">its.serverData={"storePlatformData":{},"pageData":{"BUY_PARAM_PRICETYPE":"STDQ","BUY_PARAM_GENERATION":"default","basePrice":0,"isFree":true,"isCodeEnabledForFree":false,"volumePrice":0,"basePriceForDisplay":"Free","inflectionValue":1,"productAdamId":"1257526927","productType":"C","BUY_PRODUCT_URL":"https://itunes.apple.com/WebObjects/MZFinance.woa/wa/volumeBuyProduct?cc=us","jsonSearchUrl":"https://itunes.apple.com/us/search","jsonLookupUrl":"https://itunes.apple.com/us/lookup"},"constants":{"Urls":{"upgradeITunesUrl":"http://www.apple.com/itunes/download/","upgradeSafariUrl":"http://www.apple.com/safari/download/"},"MZMediaType":{"MobileSoftware":{"id":8,"name":"MobileSoftwareApplications"},"MacSoftware":{"id":12,"name":"DesktopApps"},"Audiobooks":{"id":3,"name":"Audiobooks"},"MusicVideos":{"id":5,"name":"MusicVideos"},"iTunesU":{"id":10,"name":"iTunesU"},"EBooks":{"id":11,"name":"EBooks"},"Music":{"id":1,"name":"Music"},"Podcasts":{"id":2,"name":"Podcasts"},"ClassicSoftware":{"id":7,"name":"iPodGames"},"TVShows":{"id":4,"name":"TVShows"},"Movies":{"id":6,"name":"Movies"},"Ringtones":{"id":9,"name":"Ringtones"},"Textbooks":{"id":13,"name":"Textbooks"}},"SFSortOrder":{"PlaylistName":{"id":9},"RecentBestSellers":{"id":18},"SeriesOrder":{"id":17},"CmcRecommended":{"id":10},"Popularity":{"id":3},"OriginalReleaseDate":{"id":19},"ArtistName":{"id":8},"Featured":{"id":1},"TopRated":{"id":5},"Duration":{"id":11},"ReleaseDate":{"id":2},"TrackNumber":{"id":13},"Name":{"id":0},"AllTimeBestSellers":{"id":14},"ExpirationDate":{"id":6},"Price":{"id":7},"MostRecent":{"id":16},"PurchaseDate":{"id":4},"DateAdded":{"id":15},"DiscNumber":{"id":12}},"SFEntityType":{"Artist":{"id":1},"Playlist":{"id":4},"TopContents":{"id":7},"MultiRoom":{"id":3},"Search":{"id":6},"WeMix":{"id":8},"Cmc":{"id":2},"Work":{"id":10},"Wishlist":{"id":9},"TopAuthors":{"id":12},"Room":{"id":5},"TheyMix":{"id":11}},"countryCode":"usa","languageCode":"en","SFCustomComponentCountryCode":"usa","IXDisplayableKind":{"Artist":{"id":20,"cssClasses":[],"name":"artist"},"MobileSoftware":{"id":11,"cssClasses":["application"],"name":"iosSoftware","mtId":"8"},"Album":{"id":2,"cssClasses":["album","music"],"name":"album","mtId":"1"},"ShortFilm":{"id":8,"cssClasses":["short-film","movie","video"],"name":"shortFilm","mtId":"6"},"PodcastEpisode":{"id":15,"cssClasses":["podcast-episode"],"name":"podcastEpisode","mtId":"2"},"ApplePubEBook":{"id":36,"cssClasses":["ebook"],"name":"ibook","mtId":"11"},"Song":{"id":1,"cssClasses":["song","music"],"name":"song","mtId":"1"},"MovieBundle":{"id":24,"cssClasses":["bundle","movie","video"],"name":"movieBundle","mtId":"6"},"RingtoneAlbum":{"id":22,"cssClasses":[],"name":"ringtoneAlbum","mtId":"9"},"Book":{"id":3,"cssClasses":["audiobook"],"name":"book","mtId":"3"},"ToneAlbum":{"id":32,"cssClasses":[],"name":"toneAlbum","mtId":"9"},"TVEpisode":{"id":6,"cssClasses":["tv-episode","tv","video"],"name":"tvEpisode","mtId":"4"},"TVSeason":{"id":7,"cssClasses":["tv-season","tv","video"],"name":"tvSeason","mtId":"4"},"Course":{"id":34,"cssClasses":["course","itunes-u"],"name":"course","mtId":"10"},"ClassicSoftwarePackage":{"id":18,"cssClasses":["ipod-game"],"name":"gamePackage","mtId":"7"},"Movie":{"id":9,"cssClasses":["movie","video"],"name":"movie","mtId":"6"},"Booklet":{"id":13,"cssClasses":["booklet","music"],"name":"booklet","mtId":"1"},"SocialArtist":{"id":28,"cssClasses":[],"name":"socialArtist"},"EBook":{"id":25,"cssClasses":["ebook"],"name":"epubBook","mtId":"11"},"MacSoftware":{"id":30,"cssClasses":["application","mac-application"],"name":"desktopApp","mtId":"12"},"MusicVideo":{"id":5,"cssClasses":["music-video","music","video"],"name":"musicVideo","mtId":"5"},"Ringtone":{"id":21,"cssClasses":[],"name":"ringtone","mtId":"9"},"Podcast":{"id":4,"cssClasses":["podcast"],"name":"podcast","mtId":"2"},"Concert":{"id":26,"cssClasses":[],"name":"concert","mtId":"1"},"ApplePubTextbook":{"id":37,"cssClasses":["ebook"],"name":"ibookTextbook","mtId":"13"},"SoftwareAddOn":{"id":16,"cssClasses":["software-add-on","application"],"name":"softwareAddOn","mtId":"8"},"Tone":{"id":31,"cssClasses":[],"name":"tone","mtId":"9"},"WeMix":{"id":19,"cssClasses":["wemix","music"],"name":"itunesMix","mtId":"1"},"SocialPerson":{"id":27,"cssClasses":[],"name":"socialPerson"},"ClassicSoftware":{"id":10,"cssClasses":["ipod-game"],"name":"ipodGame","mtId":"7"},"MetaEBook":{"id":35,"cssClasses":["ebook"],"name":"metaEbook","mtId":"13"},"iTunesPass":{"id":12,"cssClasses":["itunes-pass","album","music"],"name":"itunesPass","mtId":"1"},"Mix":{"id":14,"cssClasses":["mix","music"],"name":"mix","mtId":"1"},"TheyMix":{"id":33,"cssClasses":[],"name":"thirdPartyMix"}},"AddToWishlistResult":{"ItemIsFree":{"id":6},"ListFull":{"id":3},"SomeContentAlreadyOwnedButUnfulfilled":{"id":5},"SomeContentAlreadyInWishlist":{"id":1},"Success":{"id":0},"Failure":{"id":2},"SomeContentAlreadyOwned":{"id":4}},"getEmailUrl":"https://itunes.apple.com/WebObjects/MZStore.woa/wa/generateEmail?cc=us","resourceImagePathFrameworks":"https://s.mzstatic.com/htmlResources/50e8/frameworks/images/","resourceBasePath":"https://s.mzstatic.com/htmlResources/50e8"},"properties":{"clientStatsLoadTimeGroup":"4024","MZHtmlResourcesUtil.allowDeferJsLoad":true,"countryCodeIso2a":"us","currencyFormat":"$#,##0.00;$#,##0.00;-$#,##0.00","currencySymbol":"$","currencyThousandSeparator":",","currencyDecimalSeparator":".","MZFeatureEnabler.isCadillacEnabled":true,"MZFinance.VolumeBuyQuantityUpperLimit":25000,"iTunesUEnrollLink":"","ITSServerEnvironment":"prod","ITSServerInstance":"3003904","ITSResourceRevNum":"50e8","resourceUrlPrefix":"https://s.mzstatic.com","ITSLogger.ServerReportingProtocol":"https","ITSLogger.ServerReportingDomain":"metrics.mzstatic.com","ITSLogger.ServerReportingApp":"MZUserXP","ITSLogger.RecordStatsAction":"recordStats","ITSLogger.SenderName":"ITSClient","ITSLogger.mirrorToServerByDefaultOnErrors":true,"DynaLoader.allowDynaLoading":true,"itsLoggerQueueProcessingInterval":10000,"cobaltBundleId":"com.apple.itunesu","getCobaltAppLink":"https://itunes.apple.com/us/app/id490217893","cobaltLearnMore":"https://itunes.apple.com/us/learn-more?about=iTunesUUpgradePage&type=2","isCobaltEnabled":true,"isCobaltJavascriptRedirectEnabled":true,"isCobaltUpsellPageEnabled":true,"personalizedButtonsEnabled":true,"SF6.Personalization.isCMAEnabled":true,"SF6.Personalization.isCMSEnabled":true,"SFJ.isNFAEnabledInStorefront":true,"SFJ.isRecommendationsSwooshEnabledInStorefront":true,"SF6.StorePlatform.whitelistParams":["caller","dsid","id","p"],"vendLastSupportedVersionIfAvailable":true,"vendLastSupportedVersionMacOs":true,"isBookGiftingEnabled":true,"metrics":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"1","platformId":"8","platformName":"ItunesPreview","storeFront":"143441","environmentDataCenter":"MR22"},"Software":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"1","platformId":"8","platformName":"ItunesPreview","storeFront":"143441","environmentDataCenter":"MR22"}},"ATV":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"1","platformId":"8","platformName":"ItunesPreview","storeFront":"143441","environmentDataCenter":"MR22"}},"eBooks":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"1","platformId":"8","platformName":"ItunesPreview","storeFront":"143441","environmentDataCenter":"MR22"}},"iTunes":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"1","platformId":"8","platformName":"ItunesPreview","storeFront":"143441","environmentDataCenter":"MR22"}},"iTunesU":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"1","platformId":"8","platformName":"ItunesPreview","storeFront":"143441","environmentDataCenter":"MR22"}},"MacAppStore":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"1","platformId":"8","platformName":"ItunesPreview","storeFront":"143441","environmentDataCenter":"MR22"}},"Maps":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"1","platformId":"8","platformName":"ItunesPreview","storeFront":"143441","environmentDataCenter":"MR22"}},"MusicPlayer":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"1","platformId":"8","platformName":"ItunesPreview","storeFront":"143441","environmentDataCenter":"MR22"}},"Podcasts":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"1","platformId":"8","platformName":"ItunesPreview","storeFront":"143441","environmentDataCenter":"MR22"}},"Third-Party":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"1","platformId":"8","platformName":"ItunesPreview","storeFront":"143441","environmentDataCenter":"MR22"}},"VideoPlayer":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"1","platformId":"8","platformName":"ItunesPreview","storeFront":"143441","environmentDataCenter":"MR22"}},"WiFi-Music":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"1","platformId":"8","platformName":"ItunesPreview","storeFront":"143441","environmentDataCenter":"MR22"}},"AppStore":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"1","platformId":"8","platformName":"ItunesPreview","storeFront":"143441","environmentDataCenter":"MR22"}},"MobileStore":{"metricsUrl":"https://xp.apple.com/report","compoundSeparator":"_","tokenSeparator":"|","postFrequency":60000,"postFrequencyLowLatency":5000,"appInstallSamplingPercentage":0.9995,"deResFields":[{"fieldName":"capacityData"},{"fieldName":"capacityDataAvailable"},{"fieldName":"capacityDisk"},{"fieldName":"capacitySystem"},{"fieldName":"capacitySystemAvailable"}],"impressions":{"viewableThreshold":1000,"viewablePercentage":0.5},"performance":{"samplingPercentageUsers":3.0E-4,"samplingPercentageUsersPageRender":0.01,"samplingPercentageCachedResponses":1,"sessionDuration":60000,"sessionDurationPageRender":60000},"fieldsMap":{"single":{"targetId":["id","adamId","contentId","type","link.adamId","link.id","link.type","fcId","userPreference","label","station-hash","linkIdentifier"]},"custom":{"location":["id","adamId","dataSetId","name","fcKind","kindIds","type","link.type","station-hash","core-seed-name"],"impressions":["id","adamId","link.type","station-hash"],"iAd":[]},"cookies":["itcCt","itscc","xp_ab","xp_abc"],"multi":{}},"metricsBase":{"storeFrontHeader":"","language":"1","platformId":"8","platformName":"ItunesPreview","storeFront":"143441","environmentDataCenter":"MR22"}}},"MZStore.shouldAttemptToEvaluateXpathSecondTime":true,"MZStore.shouldCacheElementTypeProtoObjects":true,"isStoweUpgradeDialogEnabled":false,"stoweUpgradeSize":1600000000,"isStopPageOneEnabled":false,"SF.isNotifyMeEnabled":false,"SF.notifyMeIds":[],"SF.notifyMeIdsWithAppleWatchApp":[],"SF.notifyMeIdsWithTvApp":[],"isMovieAnywhereEnabled":true}}</script>
+<script type="text/javascript" charset="utf-8">
+if (!window.iTSLocalization) { iTSLocalization = {}; }
+iTSLocalization._strings = {"Js.MyAlerts.GeniusActivationNeeded.Button":"Go to Genius", "Js.Pagination.NextPage":"Next Page", "Js.Wishlist.RemoveTooltip":"Remove from Wish List", "Js.CNConnections.RequestSent":"Request sent", "Js.Showcase.Next":"Next Item", "Js.CNConnections.Dialog.GetStarted":"Get Started", "Js.ReportAConcern.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "CNConnections.Upload.UploadErrorMessage":"Sorry, there was an error during upload.", "Js.InlineReview.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "Js.TextTruncation.More":"More", "Js.QuickView.Unavailable.Title":"Quick View is currently unavailable for this item.", "Less":"Less", "Js.MyAlerts.GeniusActivationNeeded.Message":"This requires Genius.", "CNConnections.Dialog.Post.Review.SignIn.Title":"Sign in to post.", "Js.ManageArtistAlerts.CheckAll.Artists":"Check All Artists", "CNConnections.Upload.UploadErrorHeading":"There is a Problem With Your Upload", "Js.TellAFriend.SigninMessage":"Enter your Apple ID and password, then click Sign In.", "CNConnections.Dialog.StopFollowing.Message":"CNConnections.Dialog.StopFollowing.Message", "CNConnections.Dialog.OptIn.Title":"Ping Will No Longer Be Available as of September 30", "CNConnections.Dialog.StopFollowing.Title":"Are you sure you want to stop following @@fullName@@?", "Js.InlineReview.SigninTitle":"Sign in to write a review.", "Js.InlineRating.SigninMessage":"Sign in to continue.", "Js.MyAlerts.GeniusActivationNeeded.Explanation":"Alerts based on your library content will not be enabled until you have turned on Genius. To learn more, click Go to Genius.", "_thousandsSeparator":",", "InAppPurchases":"In-App Purchases", 
+"Js.CNConnections.LoginRequired.Message":"This requires Ping. Ping will no longer be available as of September 30, and we are not accepting new members. If you are already a Ping member, sign in below to continue.", "Js.Pagination.PreviousPage":"Previous Page", "Js.TellAFriend.SigninTitle":"Sign in to tell a friend.", "Js.InlineReview.RateThis":"Rate this", "Js.InlineReview.5":"it's great", "Js.InlineReview.4":"it's good", "Js.Pagination.Back":"Back", "Js.InlineReview.3":"it's ok", "CNConnections.Dialog.PrivateUser.IllegalAction.Message":"If you would like to perform this action, please change your privacy settings.", "Js.InlineReview.2":"don't like it", "Js.InlineReview.1":"hate it", "Js.InlinePreview.StopPreview":"Stop preview of @@title@@", "Js.QuickView.Unavailable.Text":"Please try again later.", "Js.MyAlerts.ConfirmEmailSignUp.Explanation":"You can change this preference at any time from your My Alerts page.", "Js.CNConnections.Dialog.Cancel":"Cancel", "Js.CNConnections.PeoplePopupMore":"and @@count@@ other@@s@@...", "CNConnections.Dialog.OptIn.Message":"CNConnections.Dialog.OptIn.Message", "Js.CNConnections.Confirmed":"Confirmed", "Js.CNConnections.UserReview.YouLiked":"You Liked", "Js.CreateAccount":"Create Apple ID", "MZCommerce.Login_explanation":"Please enter your Apple ID and password and click Sign In.", "Js.CNConnections.OptInRequired.Title":"Ping", "Js.Pagination.Next":"Next", "Js.ManageArtistAlerts.CheckAll.Actors":"Check All Actors", "Js.ManageArtistAlerts.CheckAll":"Check All", "Js.ReportAConcern.SigninTitle":"Sign in to report a concern.", "Js.MyAlerts.CancelEmailSignUp.Explanation":"You can change this preference at any time from your My Alerts page.", "CNConnections.Dialog.PrivateUser.LeakyAction.Message":"This action will make your profile photo and name visible to others.", "Js.TextLimit.Remaining":"@@count@@ characters remaining", "More":"More", "CNConnections.Dialog.PrivateUser.LeakyAction.Title":"Are you sure you want to perform this action?", "Js.Pagination.PageNumberTitle":"page @@num@@", "Js.Pagination.DisabledButtonText":"disabled @@button_text@@", "Js.MyAlerts.CancelEmailSignUp.Message":"Are you sure you want to stop receiving email alerts?", "JS.errors.requiredLite":"Please fill in all required fields.", "CNConnections.Dialog.Post.Review.SignIn.Message":"CNConnections.Dialog.Post.Review.SignIn.Message", "Js.InlineReview.Thanks":"Thanks!", "Js.InlineReview.Error":"Error", "CNConnections.Dialog.Like.Review.SignIn.Message":"CNConnections.Dialog.Like.Review.SignIn.Message", "Js.ManageArtistAlerts.UncheckAll.Artists":"Uncheck All Artists", "Js.List.Item":"item", "Js.iTunesStoreError.Explanation":"There was an error in the iTunes Store. Please try again later.  (@@errorNum@@)", "Js.InlineReview.ClickToRate":"Click to rate", "CNConnections.Dialog.PrivateUser.IllegalAction.Title":"Private users may not perform this action.", "Js.InlineRating.SigninTitle":"Sign in to rate this item.", "Js.MyAlerts.ConfirmEmailSignUp.Message":"Are you sure you want to receive email alerts?", "Js.ManageArtistAlerts.UncheckAll.Actors":"Uncheck All Actors", "CNConnections.Dialog.OptIn.ButtonSubmit":"Learn More", "_decimalSeparator":".", "CNConnections.Dialog.OptIn.ButtonCancel":"Cancel", "MZCommerce.Login_message":"Sign In", 
+"Js.CNConnections.OptInRequired.Message":"This requires Ping. Ping will no longer be available as of September 30, and we are not accepting new members. If you are already a Ping member, sign in below to continue.", "Js.CNConnections.LoginRequired.Title":"Sign in to access Ping.", "CNConnections.Dialog.OptIn.ButtonSignIn":"Sign In", "Js.Pagination.PageNumber":"Page @@num@@", "Js.Search.HintsTitle":"Suggestions", "Js.InlinePreview.PlayPreview":"Play preview of @@title@@", "CNConnections.Dialog.Like.Review.SignIn.Title":"Sign in to like a review.", "Js.ManageArtistAlerts.UncheckAll":"Uncheck All", "Js.iTunesStoreError.Message":"We could not complete your request.", "CNConnections.Upload.MaxPhotosErrorMessage":"You can have no more than 20 photos in one post."}
+</script>
+
+<script type="text/javascript" charset="utf-8" src="/htmlResources/50e8/web-storefront-base.js"></script>
+<script type="text/javascript" charset="utf-8" src="/htmlResources/50e8/web-storefront-preview.js"></script>
+
+
+<link charset="utf-8" href="https://www.apple.com/wss/fonts?families=SF+Pro,v1|SF+Pro+Icons,v1" rel="stylesheet" type="text/css" />
+<link charset="utf-8" href="https://www.apple.com/ac/globalnav/3/en_US/styles/ac-globalnav.fixed.built.css" id="globalheader-stylesheet" rel="stylesheet" type="text/css" />
+<link charset="utf-8" href="https://www.apple.com/ac/globalfooter/3/en_US/styles/ac-globalfooter.fixed.built.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+</head>
+
+  <body onload="detectAndOpenItunes();" class="software geo-us ac-platter-content lang-en-us lang-en">
+  <script type="text/javascript">
+      checkIfAskPermissionApprovalSheet();
+  </script>
+  
+
+  
+  <aside id="ac-gn-segmentbar" class="ac-gn-segmentbar" lang="en-us" dir="ltr" data-strings="{ 'exit': 'Exit', 'view': '{%STOREFRONT%} Store Home', 'segments': { 'smb': 'Business Store Home', 'eduInd': 'Education Store Home', 'other': 'Store Home' } }">
+</aside>
+<input type="checkbox" id="ac-gn-menustate" class="ac-gn-menustate" />
+<nav id="ac-globalnav" class="no-js" role="navigation" aria-label="Global Navigation" data-hires="false" data-analytics-region="global nav" lang="en-US" dir="ltr" data-store-locale="us" data-store-api="//www.apple.com/[storefront]/shop/bag/status" data-search-locale="en_US" data-search-api="//www.apple.com/search-services/suggestions/">
+	<div class="ac-gn-content">
+		<ul class="ac-gn-header">
+			<li class="ac-gn-item ac-gn-menuicon">
+				<label class="ac-gn-menuicon-label" for="ac-gn-menustate" aria-hidden="true">
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top"></span>
+					</span>
+					<span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+						<span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom"></span>
+					</span>
+				</label>
+				<a href="#ac-gn-menustate" class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open">
+					<span class="ac-gn-menuanchor-label">Open Menu</span>
+				</a>
+				<a href="#" class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close">
+					<span class="ac-gn-menuanchor-label">Close Menu</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="//www.apple.com/" data-analytics-title="apple home" id="ac-gn-firstfocus-small">
+					<span class="ac-gn-link-text">Apple</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
+				<a class="ac-gn-link ac-gn-link-bag" href="//www.apple.com/us/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with Items">
+					<span class="ac-gn-link-text">Shopping Bag</span>
+					<span class="ac-gn-bag-badge"></span>
+				</a>
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+			</li>
+		</ul>
+		<ul class="ac-gn-list">
+			<li class="ac-gn-item ac-gn-apple">
+				<a class="ac-gn-link ac-gn-link-apple" href="//www.apple.com/" data-analytics-title="apple home" id="ac-gn-firstfocus">
+					<span class="ac-gn-link-text">Apple</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-mac">
+				<a class="ac-gn-link ac-gn-link-mac" href="//www.apple.com/mac/" data-analytics-title="mac">
+					<span class="ac-gn-link-text">Mac</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-ipad">
+				<a class="ac-gn-link ac-gn-link-ipad" href="//www.apple.com/ipad/" data-analytics-title="ipad">
+					<span class="ac-gn-link-text">iPad</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-iphone">
+				<a class="ac-gn-link ac-gn-link-iphone" href="//www.apple.com/iphone/" data-analytics-title="iphone">
+					<span class="ac-gn-link-text">iPhone</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-watch">
+				<a class="ac-gn-link ac-gn-link-watch" href="//www.apple.com/watch/" data-analytics-title="watch">
+					<span class="ac-gn-link-text">Watch</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-tv">
+				<a class="ac-gn-link ac-gn-link-tv" href="//www.apple.com/tv/" data-analytics-title="tv">
+					<span class="ac-gn-link-text">TV</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-music">
+				<a class="ac-gn-link ac-gn-link-music" href="//www.apple.com/music/" data-analytics-title="music">
+					<span class="ac-gn-link-text">Music</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-support">
+				<a class="ac-gn-link ac-gn-link-support" href="https://support.apple.com" data-analytics-title="support">
+					<span class="ac-gn-link-text">Support</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+				<a class="ac-gn-link ac-gn-link-search" href="//www.apple.com/us/search" data-analytics-title="search" data-analytics-click="search" aria-label="Search apple.com">
+					<span class="ac-gn-search-placeholder" aria-hidden="true">Search apple.com</span>
+				</a>
+			</li>
+			<li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
+				<a class="ac-gn-link ac-gn-link-bag" href="//www.apple.com/us/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with Items">
+					<span class="ac-gn-link-text">Shopping Bag</span>
+					<span class="ac-gn-bag-badge" aria-hidden="true"></span>
+				</a>
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-large"></span>
+			</li>
+		</ul>
+		<aside id="ac-gn-searchview" class="ac-gn-searchview" role="search" data-analytics-region="search">
+			<div class="ac-gn-searchview-content">
+				<form id="ac-gn-searchform" class="ac-gn-searchform" action="//www.apple.com/us/search" method="get">
+					<div class="ac-gn-searchform-wrapper">
+						<input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" aria-label="Search apple.com" placeholder="Search apple.com" data-placeholder-long="Search for Products, Stores, and Help" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" />
+						<input id="ac-gn-searchform-src" type="hidden" name="src" value="globalnav" />
+						<button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled aria-label="Submit"></button>
+						<button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled aria-label="Clear Search"></button>
+					</div>
+				</form>
+				<aside id="ac-gn-searchresults" class="ac-gn-searchresults" data-string-quicklinks="Quick Links" data-string-suggestions="Suggested Searches" data-string-noresults="Hit enter to search."></aside>
+			</div>
+			<button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Close Search">
+					<span class="ac-gn-searchview-close-wrapper">
+						<span class="ac-gn-searchview-close-left"></span>
+						<span class="ac-gn-searchview-close-right"></span>
+					</span>
+				</button>
+		</aside>
+		<aside class="ac-gn-bagview" data-analytics-region="bag">
+			<div class="ac-gn-bagview-scrim">
+				<span class="ac-gn-bagview-caret ac-gn-bagview-caret-small"></span>
+			</div>
+			<div class="ac-gn-bagview-content" id="ac-gn-bagview-content">
+			</div>
+		</aside>
+	</div>
+</nav>
+<div id="ac-gn-curtain" class="ac-gn-curtain"></div>
+<div id="ac-gn-placeholder" class="ac-nav-placeholder"></div>
+<script type="text/javascript" src="https://www.apple.com/ac/globalnav/3/en_US/scripts/ac-globalnav.built.js"></script>
+<div id="productheader"><div class="localnav" data-analytics-region="product nav"><h2><img src="https://s.mzstatic.com/images/web/itunes_preview/itunespreview_en@2x.png" alt="iTunes" height="32" width="263"></h2><ul class="localnav-links"><li><a href="http://www.apple.com/itunes/overview/" class="localnav-link">Overview</a></li><li><a href="http://www.apple.com/itunes/music/" class="localnav-link">Music</a></li><li><a href="http://www.apple.com/itunes/video/" class="localnav-link">Video</a></li><li><a href="http://www.apple.com/itunes/charts/" class="localnav-link">Charts</a></li></ul></div></div>
+
+  <div id="main">
+    <div id="itunes-detector">
+  <div id="launching-itunes">
+
+    <div id="status">
+      <div class="opening-itunes" id="loadingItunes"><span>Opening the iTunes Store.</span><span>If iTunes doesn't open, click the iTunes application icon in your Dock or on your Windows desktop.</span><span class="spinner">Progress Indicator</span></div>
+      <div class="opening-itunes" id="loadingIbooks"><span>Opening the iBooks Store.</span><span>If iBooks doesn't open, click the iBooks app in your Dock.</span><span class="spinner">Progress Indicator</span></div>
+  </div>
+</div>
+
+  <div id="itunes-client-required">
+    <div class="callout">
+      <div class="left">iTunes</div>
+
+      <h2>iTunes is the world's easiest way to organize and add to your digital media collection.</h2>
+
+      <p preview-capable-text="We are unable to find iTunes on your computer. To download the free app Gladys by Pavlos Tsochantaris, get iTunes now." class="intro has-preview-capable-text">
+        We are unable to find iTunes on your computer. To download the free app Gladys by Pavlos Tsochantaris, get iTunes now.          
+      </p>
+
+      <div class="download">
+        <p>Already have iTunes? Click I Have iTunes to open it now.</p>
+        <a class="i-have-itunes" onclick="its.detect.userOverrideSetItunesInstalled(); its.detect.openItunes(); return true;" href="#">
+          <img alt="I Have iTunes" src="/images/web/ihaveitunes.png" />
+        </a>
+        <a href="#" onclick="javascript:window.location='http://www.apple.com/itunes/download/?id=1257526927'; return true;"><img alt="Free Download" src="/images/web/freedownload.png" /></a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+      <script type="text/javascript">
+        deviceDetect();
+      </script>
+    
+    <div id="desktopContentBlockId" class='platform-content-block display-block'>
+
+      <div id="content">
+
+        <div itemscope itemtype="http://schema.org/SoftwareApplication" class="padder">
+          
+
+          <div id="title" class="intro ">
+            <div class="left">
+              <h1 itemprop="name">Gladys</h1>
+              <h2>By Pavlos Tsochantaris</h2>
+              
+            </div>
+            <div class="right">
+              
+              <a href="https://itunes.apple.com/us/developer/pavlos-tsochantaris/id328330654" class="view-more">View More by This Developer</a>
+              
+            </div>
+            <p>This app is only available on the App Store for iOS devices.</p>
+          </div>
+
+          <div class="center-stack">
+            
+            <div more-text="More" metrics-loc="Titledbox_Description" class="product-review">
+  
+    <h4>
+      
+      Description
+    </h4>
+    
+  
+  
+  
+    <p itemprop="description">Gladys is a drag-and-drop shelf that holds things you want to set aside, such as links, text snippets, map locations, contacts, images, photos, emails, messages and much more (even if the application that the information came from is removed)<br /><br />It works with any app that supports drag-and-drop, and lets you concentrate on whatever it is you are setting aside, without having to think where it needs to be dropped, or having to constantly switch between apps.<br /><br />• Works with any app that supports drag-and-drop, but also provides an extension for apps that don't yet support it, as well as the ability to paste items to & from the clipboard.<br />• Quickly search for items inside the app or via Spotlight. Access your top items from the home screen / Today widget, or from your Apple Watch.<br />• Annotate items with notes, custom titles, and tag items with labels that allow you to easily categorise, browse, and sort your collection.<br />• Take your collection with you on your iPhone, and keep it updated by turning on automatic iCloud syncing.<br />• Import/export/merge collection archives simply by dragging.<br />• Ideal for bookmarking between apps: For example you can quickly return to dropped email items by selecting 'Open' in their info view, or quickly share links between different browsers.<br />• Experienced users can get details on every item and extract specific components (e.g. extract the URL of an image link, instead of the whole item).<br />• Power users can use Gladys' Files extension to view/edit items in-place from other apps, as well as exporting all items in a ZIP file for sharing.<br />• Technical users can inspect binary data using the in-built hex viewer.<br />• Contains no analytics, ratings prompts, or noise.<br /><br />Gladys is free for casual use (up to 10 simultaneous items). Power users with larger libraries can expand Gladys to hold unlimited items with a 99 cent in-app-purchase.</p>
+  
+  
+</div>
+
+
+            
+            <div class="app-links"><a rel="nofollow" target="_blank" href="http://www.bru.build/app/gladys" class="see-all">Pavlos Tsochantaris Web Site</a><a rel="nofollow" target="_blank" href="http://www.bru.build/app/gladys" class="see-all">Gladys Support</a></div>
+
+            
+            <div more-text="More" metrics-loc="Titledbox_What&#39;s New in Version 1.1.6" class="product-review">
+  
+    <h4>
+      
+      What's New in Version 1.1.6
+    </h4>
+    
+  
+  
+  
+    <p>• New option to expose notes added to items in the main view.<br />• URL scheme extended with new options to specify custom title, note, and labels. Example: "gladys://paste-clipboard?title=Title%20For%20Item&note=Some%20Note%20Text&labels=label1,label2,label3 (all parameters are optional)<br />• Fixes to title and note editing: Reduced "jumpy" scrolling that could occur when editing unusually long titles or notes in the info view. Improved cursor tracking and editing on iPhone.<br />• Less iCloud sync traffic on deletions, additions, and position changes. Significantly fewer occasions where you will see a "blink" shortly after performing a synced action. This also means sync is faster and uses less bandwidth.<br /><br />From 1.1.5 and 1.1.4:<br /><br />• Now includes a simple Apple Watch app to allow browsing items, an option to copy an item to the clipboard, open its info view on your iPhone, or pin its title as a text complication.<br />• The Today View widget can now be expanded to show more items.<br />• You can now open Gladys from another app to paste the clipboard using a URL scheme, for instance: "gladys://paste-clipboard?label=New%20Item". The label parameter is optional.<br />• New option to skip auto-labelling for items that are added while labels are active.<br />• New option to remove items after they have been dragged out of Gladys.<br />• When adding items while a search or label is active, implying that the item would stay hidden after being added, a message appears to confirm the addition occurred.<br />• Corrected a crash that could occur when adding items while a search was already active but no items were visible.<br />• Corrected a case where search results would not reset after selecting "cancel" from the search bar.<br />• Robustness improvements to item storage and sync.<br />• Improves ordering of inserted items that are dropped into Gladys while filtering is active.<br />• Corrects a rare case where using the share extension immediately after cancelling a previous share action could result in data loss.<br />• Corrects a crash that could result from displaying the in-app-purchase dialog while filtering is active.</p>
+  
+  
+</div>
+
+
+            
+            
+
+            
+            
+<div metrics-loc="Swoosh_" rows="1" class="swoosh lockup-container application large screenshots">
+
+  <div class="title">
+   
+   
+    <h2>Screenshots</h2>
+   
+       
+    
+        
+        <div class="pill">
+    
+        <a metrics-loc="Pill_" metrics-leaf="1" href="#">iPhone</a>
+    
+        <a metrics-loc="Pill_" metrics-leaf="1" href="#">iPad</a>
+    
+        <a metrics-loc="Pill_" metrics-leaf="1" href="#">Apple Watch</a>
+    
+</div>
+
+    
+    
+    <a metrics-loc="Seeall" href="" class="see-all"><span></span></a>
+  </div>
+
+  <div class="toggle">
+    
+    <div metrics-loc="iPhone" num-items="5" class="content iphone-screen-shots"><div><div class="lockup"><img alt="iPhone Screenshot 1" itemprop="screenshot" class="portrait" src="http://is3.mzstatic.com/image/thumb/Purple118/v4/cf/07/fb/cf07fbdd-06c1-ffcf-58de-4880d5c53311/source/392x696bb.jpg" /></div><div class="lockup"><img alt="iPhone Screenshot 2" itemprop="screenshot" class="portrait" src="http://is1.mzstatic.com/image/thumb/Purple118/v4/81/dd/3f/81dd3f67-7e2c-83c4-3bc6-49917061927e/source/392x696bb.jpg" /></div><div class="lockup"><img alt="iPhone Screenshot 3" itemprop="screenshot" class="portrait" src="http://is3.mzstatic.com/image/thumb/Purple118/v4/cc/9b/55/cc9b554d-bd4f-9954-0220-60c9f55b415f/source/392x696bb.jpg" /></div><div class="lockup"><img alt="iPhone Screenshot 4" itemprop="screenshot" class="portrait" src="http://is3.mzstatic.com/image/thumb/Purple118/v4/8e/fb/17/8efb1738-7f65-a2b6-3950-d5cd331df7ac/source/392x696bb.jpg" /></div><div class="lockup"><img alt="iPhone Screenshot 5" itemprop="screenshot" class="portrait" src="http://is1.mzstatic.com/image/thumb/Purple118/v4/39/0e/da/390eda23-80f6-960c-ca56-b97ea226ce05/source/392x696bb.jpg" /></div></div></div><div metrics-loc="iPad" num-items="5" class="content ipad-screen-shots"><div><div class="lockup"><img alt="iPad Screenshot 1" itemprop="screenshot" class="landscape" src="http://is1.mzstatic.com/image/thumb/Purple118/v4/a9/1f/ad/a91fad5e-94fb-5780-ea31-8f7d0e5659a2/source/552x414bb.jpg" /></div><div class="lockup"><img alt="iPad Screenshot 2" itemprop="screenshot" class="landscape" src="http://is1.mzstatic.com/image/thumb/Purple118/v4/15/67/ca/1567ca7d-8e8e-f346-9392-2dbb54128931/source/552x414bb.jpg" /></div><div class="lockup"><img alt="iPad Screenshot 3" itemprop="screenshot" class="landscape" src="http://is1.mzstatic.com/image/thumb/Purple118/v4/47/e1/40/47e1409b-2b1b-1034-d0db-d2eaca8cc16c/source/552x414bb.jpg" /></div><div class="lockup"><img alt="iPad Screenshot 4" itemprop="screenshot" class="landscape" src="http://is1.mzstatic.com/image/thumb/Purple118/v4/10/20/f7/1020f7b4-f709-2579-6d0b-33f559aac45d/source/552x414bb.jpg" /></div><div class="lockup"><img alt="iPad Screenshot 5" itemprop="screenshot" class="landscape" src="http://is2.mzstatic.com/image/thumb/Purple128/v4/e9/21/3e/e9213e9a-da09-4805-5cd7-90443da4b6e0/source/552x414bb.jpg" /></div></div></div><div metrics-loc="Apple Watch" num-items="4" class="content watch-screenshots"><div><div class="lockup"><img alt="iPhone Screenshot 1" itemprop="screenshot" class="portrait" src="http://is4.mzstatic.com/image/thumb/Purple128/v4/48/f7/3f/48f73fc4-2d21-81a7-2f82-78e5bece4921/source/312x390bb.jpg" /></div><div class="lockup"><img alt="iPhone Screenshot 2" itemprop="screenshot" class="portrait" src="http://is5.mzstatic.com/image/thumb/Purple128/v4/ec/24/ef/ec24ef10-baad-71d9-1bf2-e7353d9fd1c3/source/312x390bb.jpg" /></div><div class="lockup"><img alt="iPhone Screenshot 3" itemprop="screenshot" class="portrait" src="http://is3.mzstatic.com/image/thumb/Purple128/v4/c2/3c/ba/c23cbabe-3959-d27a-c38b-f2edb9c7ce61/source/312x390bb.jpg" /></div><div class="lockup"><img alt="iPhone Screenshot 4" itemprop="screenshot" class="portrait" src="http://is1.mzstatic.com/image/thumb/Purple128/v4/78/d8/3d/78d83dfa-ad08-f5e6-df2a-2a74bac0b68f/source/312x390bb.jpg" /></div></div></div>
+  </div>
+</div>
+
+
+            
+            <div class="customer-reviews">
+  <h4>Customer Reviews</h4>
+
+  
+    
+<div more-text="More" class="customer-review">
+  
+
+  
+    
+      
+      <h5>
+        
+        <span class="customerReviewTitle">Love Gladys!</span>
+        <div class='rating' role='img' tabindex='-1' aria-label='5 stars'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div></div>
+
+      </h5>
+      
+      <span class="user-info">by
+        
+          BAR112
+        
+        
+      </span>
+    
+
+    
+  
+
+  <p class="content" will-truncate-max-height="0" data-text-truncate-lines="5">
+    Other than the odd app name and icon, it works great for iOS 11 drag and drop on my iPads.  There are 3 ways to get the data (text, photos, gifs, etc.) in:  drag and drop, Share/“Keep in Gladys”, and copy/paste).  It’s easy to pull out a clip, drag and drop it; the original will stay right there in case you need to use it again.  Just started with the app but already can tell it’s going to increase my productivity.  And what a bargain, price-wise!  Highly recommend Gladys!
+  </p>
+
+  
+</div>
+
+  
+
+</div>
+
+            
+            
+<div metrics-loc="Swoosh_" rows="1" class="swoosh lockup-container application large">
+
+  <div class="title">
+   
+   
+    <h2>Customers Also Bought</h2>
+   
+       
+    
+    
+    
+  </div>
+
+  
+    
+    <div num-items="5" class="content"><div>
+<div rating-software="100,itunes-games" parental-rating="1" role="group" metrics-loc="Lockup_" adam-id="642022747" preview-artist="Clean Shaven Apps" aria-label="Dispatch: Email meets GTD" preview-title="Dispatch: Email meets GTD" class="lockup small application">
+  
+    <a href="https://itunes.apple.com/us/app/dispatch-email-meets-gtd/id642022747?mt=8" class="artwork-link"><div class="artwork">
+    <img width="100" height="100" alt="Dispatch: Email meets GTD" src-swap-high-dpi="http://is2.mzstatic.com/image/thumb/Purple117/v4/88/8b/6f/888b6f62-b5d8-7ab4-ac0e-ebe5e0c09d2c/source/200x200bb.jpg" src-load-auto-after-dom-load="" src-swap="http://is2.mzstatic.com/image/thumb/Purple117/v4/88/8b/6f/888b6f62-b5d8-7ab4-ac0e-ebe5e0c09d2c/source/100x100bb.jpg" class="artwork" src="https://s.mzstatic.com/htmlResources/50e8/frameworks/images/p.png" />
+    
+    <span class="mask"></span>
+    
+</div></a>
+  
+  <div class="lockup-info">
+    
+    
+    
+    <ul role="presentation" class="list"><li><a href="https://itunes.apple.com/us/app/dispatch-email-meets-gtd/id642022747?mt=8" class="name"><span>Dispatch: Email meets GTD</span></a></li><li><a href="https://itunes.apple.com/us/genre/ios-productivity/id6007?mt=8" class="genre">Productivity</a></li><li><a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/us/app/dispatch-email-meets-gtd/id642022747?mt=8&#39;);" href="#" class="action view-in-itunes"><span>View in iTunes</span></a></li></ul>
+  </div>
+</div>
+
+<div rating-software="100,itunes-games" parental-rating="1" role="group" metrics-loc="Lockup_" adam-id="1045605097" preview-artist="Agile Tortoise" aria-label="Interact Contacts" preview-title="Interact Contacts" class="lockup small application">
+  
+    <a href="https://itunes.apple.com/us/app/interact-contacts/id1045605097?mt=8" class="artwork-link"><div class="artwork">
+    <img width="100" height="100" alt="Interact Contacts" src-swap-high-dpi="http://is4.mzstatic.com/image/thumb/Purple128/v4/8b/93/a4/8b93a41f-ef7b-5946-a36b-3673d0e5abad/source/200x200bb.jpg" src-load-auto-after-dom-load="" src-swap="http://is4.mzstatic.com/image/thumb/Purple128/v4/8b/93/a4/8b93a41f-ef7b-5946-a36b-3673d0e5abad/source/100x100bb.jpg" class="artwork" src="https://s.mzstatic.com/htmlResources/50e8/frameworks/images/p.png" />
+    
+    <span class="mask"></span>
+    
+</div></a>
+  
+  <div class="lockup-info">
+    
+    
+    
+    <ul role="presentation" class="list"><li><a href="https://itunes.apple.com/us/app/interact-contacts/id1045605097?mt=8" class="name"><span>Interact Contacts</span></a></li><li><a href="https://itunes.apple.com/us/genre/ios-productivity/id6007?mt=8" class="genre">Productivity</a></li><li><a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/us/app/interact-contacts/id1045605097?mt=8&#39;);" href="#" class="action view-in-itunes"><span>View in iTunes</span></a></li></ul>
+  </div>
+</div>
+
+<div rating-software="100,itunes-games" parental-rating="1" role="group" metrics-loc="Lockup_" adam-id="1170878793" preview-artist="Glam Software" aria-label="Outlinely - Outliner, beautiful outline &amp; notes" preview-title="Outlinely - Outliner, beautiful outline &amp; notes" class="lockup small application">
+  
+    <a href="https://itunes.apple.com/us/app/outlinely-outliner-beautiful-outline-notes/id1170878793?mt=8" class="artwork-link"><div class="artwork">
+    <img width="100" height="100" alt="Outlinely - Outliner, beautiful outline &amp; notes" src-swap-high-dpi="http://is2.mzstatic.com/image/thumb/Purple127/v4/99/19/b1/9919b141-f6ec-e1b5-b853-4dfd8832fed7/source/200x200bb.jpg" src-load-auto-after-dom-load="" src-swap="http://is2.mzstatic.com/image/thumb/Purple127/v4/99/19/b1/9919b141-f6ec-e1b5-b853-4dfd8832fed7/source/100x100bb.jpg" class="artwork" src="https://s.mzstatic.com/htmlResources/50e8/frameworks/images/p.png" />
+    
+    <span class="mask"></span>
+    
+</div></a>
+  
+  <div class="lockup-info">
+    
+    
+    
+    <ul role="presentation" class="list"><li><a href="https://itunes.apple.com/us/app/outlinely-outliner-beautiful-outline-notes/id1170878793?mt=8" class="name"><span>Outlinely - Outliner, beautiful outline &amp; notes</span></a></li><li><a href="https://itunes.apple.com/us/genre/ios-productivity/id6007?mt=8" class="genre">Productivity</a></li><li><a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/us/app/outlinely-outliner-beautiful-outline-notes/id1170878793?mt=8&#39;);" href="#" class="action view-in-itunes"><span>View in iTunes</span></a></li></ul>
+  </div>
+</div>
+
+<div rating-software="100,itunes-games" parental-rating="1" role="group" metrics-loc="Lockup_" adam-id="806250172" preview-artist="Amit Chaudhary" aria-label="Taskmator - TaskPaper Client" preview-title="Taskmator - TaskPaper Client" class="lockup small application">
+  
+    <a href="https://itunes.apple.com/us/app/taskmator-taskpaper-client/id806250172?mt=8" class="artwork-link"><div class="artwork">
+    <img width="100" height="100" alt="Taskmator - TaskPaper Client" src-swap-high-dpi="http://is2.mzstatic.com/image/thumb/Purple118/v4/e0/d6/67/e0d6671d-a17f-b88d-072d-9b912e41bf65/source/200x200bb.jpg" src-load-auto-after-dom-load="" src-swap="http://is2.mzstatic.com/image/thumb/Purple118/v4/e0/d6/67/e0d6671d-a17f-b88d-072d-9b912e41bf65/source/100x100bb.jpg" class="artwork" src="https://s.mzstatic.com/htmlResources/50e8/frameworks/images/p.png" />
+    
+    <span class="mask"></span>
+    
+</div></a>
+  
+  <div class="lockup-info">
+    
+    
+    
+    <ul role="presentation" class="list"><li><a href="https://itunes.apple.com/us/app/taskmator-taskpaper-client/id806250172?mt=8" class="name"><span>Taskmator - TaskPaper Client</span></a></li><li><a href="https://itunes.apple.com/us/genre/ios-productivity/id6007?mt=8" class="genre">Productivity</a></li><li><a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/us/app/taskmator-taskpaper-client/id806250172?mt=8&#39;);" href="#" class="action view-in-itunes"><span>View in iTunes</span></a></li></ul>
+  </div>
+</div>
+
+<div rating-software="100,itunes-games" parental-rating="1" role="group" metrics-loc="Lockup_" adam-id="1039632918" preview-artist="Apimac" aria-label="Clean Text" preview-title="Clean Text" class="lockup small application">
+  
+    <a href="https://itunes.apple.com/us/app/clean-text/id1039632918?mt=8" class="artwork-link"><div class="artwork">
+    <img width="100" height="100" alt="Clean Text" src-swap-high-dpi="http://is4.mzstatic.com/image/thumb/Purple128/v4/93/37/fe/9337fe84-0d07-8e76-e118-b27a880db3c8/source/200x200bb.jpg" src-load-auto-after-dom-load="" src-swap="http://is4.mzstatic.com/image/thumb/Purple128/v4/93/37/fe/9337fe84-0d07-8e76-e118-b27a880db3c8/source/100x100bb.jpg" class="artwork" src="https://s.mzstatic.com/htmlResources/50e8/frameworks/images/p.png" />
+    
+    <span class="mask"></span>
+    
+</div></a>
+  
+  <div class="lockup-info">
+    
+    
+    
+    <ul role="presentation" class="list"><li><a href="https://itunes.apple.com/us/app/clean-text/id1039632918?mt=8" class="name"><span>Clean Text</span></a></li><li><a href="https://itunes.apple.com/us/genre/ios-productivity/id6007?mt=8" class="genre">Productivity</a></li><li><a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/us/app/clean-text/id1039632918?mt=8&#39;);" href="#" class="action view-in-itunes"><span>View in iTunes</span></a></li></ul>
+  </div>
+</div>
+</div></div>
+  
+</div>
+
+          </div>
+
+          <div id="left-stack">
+            
+            <div rating-software="100,itunes-games" parental-rating="1" class="lockup product application">
+  <a href="https://itunes.apple.com/us/app/gladys/id1257526927?mt=8"><div class="artwork">
+    <img width="175" height="175" alt="Gladys" src-swap-high-dpi="http://is5.mzstatic.com/image/thumb/Purple122/v4/1a/0d/df/1a0ddf1f-89a7-b850-cef7-207d1c64849b/source/350x350bb.jpg" src-load-auto-after-dom-load="" src-swap="http://is5.mzstatic.com/image/thumb/Purple122/v4/1a/0d/df/1a0ddf1f-89a7-b850-cef7-207d1c64849b/source/175x175bb.jpg" class="artwork" src="https://s.mzstatic.com/htmlResources/50e8/frameworks/images/p.png" />
+    <meta itemprop="image" content="http://is5.mzstatic.com/image/thumb/Purple122/v4/1a/0d/df/1a0ddf1f-89a7-b850-cef7-207d1c64849b/source/175x175bb.jpg"></meta>
+    <span class="mask"></span>
+    
+</div></a>
+  <a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/us/app/gladys/id1257526927?mt=8&#39;);" href="#" class="action view-in-itunes"><span>View in iTunes</span></a>
+  <div class="fat-binary-blurb"><span class="fat-binary-badge"></span><span>This app is designed for both iPhone and iPad</span></div><div class="works-on-apple-watch"><span class="works-on-apple-watch-badge"></span><span>Offers Apple Watch App for iPhone</span></div><ul class="list"><li><span itemscope itemtype="http://schema.org/Offer" itemprop="offers"><div itemprop="price" content="0" class="price">Free</div></span></li><li class="genre"><span class="label">Category: </span><a href="https://itunes.apple.com/us/genre/ios-productivity/id6007?mt=8"><span itemprop="applicationCategory">Productivity</span></a></li><li class="release-date"><span class="label">Updated: </span><span itemprop="datePublished" content="2017-09-19 21:18:44 Etc/GMT">Nov 20, 2017</span></li><li><span class="label">Version: </span><span itemprop="softwareVersion">1.1.6</span></li><li><span class="label">Size: </span>24.2 MB</li><li><span class="label">Apple Watch: </span>Yes</li><li class="language"><span class="label">Language: </span>English</li><li><span class="label">Seller: </span><span itemscope itemtype="http://schema.org/Person" itemprop="author"><span itemprop="name">Pavlos Tsochantaris</span></span></li><li class="copyright">© (c) Paul Tsochantaris 2017</li></ul><div class="app-rating"><a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?ratingSystem=appsApple&#39;);" href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/appRatings?ratingSystem=appsApple">Rated 4+</a></div><p><span class="app-requirements">Compatibility: </span><span itemprop="operatingSystem">Requires iOS 11.0 or later. Compatible with iPhone 5s, iPhone 6, iPhone 6 Plus, iPhone 6s, iPhone 6s Plus, iPhone SE, iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone X, iPad Air, iPad Air Wi-Fi + Cellular, iPad mini 2, iPad mini 2 Wi-Fi + Cellular, iPad Air 2, iPad Air 2 Wi-Fi + Cellular, iPad mini 3, iPad mini 3 Wi-Fi + Cellular, iPad mini 4, iPad mini 4 Wi-Fi + Cellular, 12.9-inch iPad Pro, 12.9-inch iPad Pro Wi-Fi + Cellular, 9.7-inch iPad Pro, 9.7-inch iPad Pro Wi-Fi + Cellular, iPad (5th generation), iPad Wi-Fi + Cellular (5th generation), 12.9-inch iPad Pro (2nd generation), 12.9-inch iPad Pro Wi‑Fi + Cellular (2nd generation), 10.5-inch iPad Pro, 10.5-inch iPad Pro Wi‑Fi + Cellular, and iPod touch.</span></p>
+</div>
+
+            
+            
+
+            
+            
+<div class='extra-list customer-ratings'>
+  <h4>Customer Ratings</h4>
+
+  <div>Current Version:</div>
+  <div class='rating' role='img' tabindex='-1' aria-label='5 stars, 20 Ratings' itemprop='aggregateRating' itemscope itemtype='http://schema.org/AggregateRating'><span style="display: none;" itemprop="ratingValue">4.84999</span><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div><span class="rating-count" itemprop="reviewCount">20 Ratings</span>
+</div>
+
+
+  
+  
+
+  
+    <div>All Versions:</div>
+    <div class='rating' role='img' tabindex='-1' aria-label='5 stars, 20 Ratings'><div><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span><span class="rating-star">&nbsp;</span></div><span class="rating-count">20 Ratings</span>
+</div>
+
+    
+  
+
+</div>
+
+
+            
+            <div metrics-loc="Titledbox_Top In-App Purchases" class="extra-list in-app-purchases">
+  
+    <h4>
+      
+      Top In-App Purchases
+    </h4>
+    
+  
+  
+  
+    <ol class="list"><li><span class="in-app-title">Unlimited Items</span><span class="in-app-price">$0.99</span></li></ol>
+  
+  
+</div>
+
+
+            
+            <div metrics-loc="Titledbox_More by Pavlos Tsochantaris" class="extra-list more-by">
+  
+    <h4>
+      
+      More by Pavlos Tsochantaris
+    </h4>
+    
+  
+  
+  
+    <ul class="list"><li>
+<div rating-software="100,itunes-games" parental-rating="1" role="group" metrics-loc="Lockup_" adam-id="328330651" preview-artist="Pavlos Tsochantaris" aria-label="Pebble Command" preview-title="Pebble Command" class="lockup small application">
+  
+    <a href="https://itunes.apple.com/us/app/pebble-command/id328330651?mt=8" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Pebble Command" src-swap-high-dpi="http://is5.mzstatic.com/image/thumb/Purple69/v4/de/64/48/de644886-ea88-4aa5-3f04-06bcc2eb3c1e/source/150x150bb.jpg" src-load-auto-after-dom-load="" src-swap="http://is5.mzstatic.com/image/thumb/Purple69/v4/de/64/48/de644886-ea88-4aa5-3f04-06bcc2eb3c1e/source/75x75bb.jpg" class="artwork" src="https://s.mzstatic.com/htmlResources/50e8/frameworks/images/p.png" />
+    
+    <span class="mask"></span>
+    
+</div></a>
+  
+  <div class="lockup-info">
+    
+    
+    
+    <ul role="presentation" class="list"><li><a href="https://itunes.apple.com/us/app/pebble-command/id328330651?mt=8" class="name">Pebble Command</a></li><li><a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/us/app/pebble-command/id328330651?mt=8&#39;);" href="#" class="action view-in-itunes"><span>View in iTunes</span></a></li></ul>
+  </div>
+</div>
+</li><li>
+<div rating-software="100,itunes-games" parental-rating="1" role="group" metrics-loc="Lockup_" adam-id="806104975" preview-artist="Pavlos Tsochantaris" aria-label="Pocket Trailer" preview-title="Pocket Trailer" class="lockup small application">
+  
+    <a href="https://itunes.apple.com/us/app/pocket-trailer/id806104975?mt=8" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Pocket Trailer" src-swap-high-dpi="http://is4.mzstatic.com/image/thumb/Purple118/v4/bc/8c/b9/bc8cb915-fd79-1c14-de5e-6ff776b6494d/source/150x150bb.jpg" src-load-auto-after-dom-load="" src-swap="http://is4.mzstatic.com/image/thumb/Purple118/v4/bc/8c/b9/bc8cb915-fd79-1c14-de5e-6ff776b6494d/source/75x75bb.jpg" class="artwork" src="https://s.mzstatic.com/htmlResources/50e8/frameworks/images/p.png" />
+    
+    <span class="mask"></span>
+    
+</div></a>
+  
+  <div class="lockup-info">
+    
+    
+    
+    <ul role="presentation" class="list"><li><a href="https://itunes.apple.com/us/app/pocket-trailer/id806104975?mt=8" class="name">Pocket Trailer</a></li><li><a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/us/app/pocket-trailer/id806104975?mt=8&#39;);" href="#" class="action view-in-itunes"><span>View in iTunes</span></a></li></ul>
+  </div>
+</div>
+</li><li>
+<div rating-software="100,itunes-games" parental-rating="1" role="group" metrics-loc="Lockup_" adam-id="912539457" preview-artist="Pavlos Tsochantaris" aria-label="Mode 3" preview-title="Mode 3" class="lockup small application">
+  
+    <a href="https://itunes.apple.com/us/app/mode-3/id912539457?mt=8" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Mode 3" src-swap-high-dpi="http://is2.mzstatic.com/image/thumb/Purple60/v4/8a/a3/57/8aa3576b-bfde-f0ee-6a98-50ec12864baf/source/150x150bb.jpg" src-load-auto-after-dom-load="" src-swap="http://is2.mzstatic.com/image/thumb/Purple60/v4/8a/a3/57/8aa3576b-bfde-f0ee-6a98-50ec12864baf/source/75x75bb.jpg" class="artwork" src="https://s.mzstatic.com/htmlResources/50e8/frameworks/images/p.png" />
+    
+    <span class="mask"></span>
+    
+</div></a>
+  
+  <div class="lockup-info">
+    
+    
+    
+    <ul role="presentation" class="list"><li><a href="https://itunes.apple.com/us/app/mode-3/id912539457?mt=8" class="name">Mode 3</a></li><li><a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/us/app/mode-3/id912539457?mt=8&#39;);" href="#" class="action view-in-itunes"><span>View in iTunes</span></a></li></ul>
+  </div>
+</div>
+</li><li>
+<div rating-software="100,itunes-games" parental-rating="1" role="group" metrics-loc="Lockup_" adam-id="916568198" preview-artist="Pavlos Tsochantaris" aria-label="Let Me Zoom" preview-title="Let Me Zoom" class="lockup small application">
+  
+    <a href="https://itunes.apple.com/us/app/let-me-zoom/id916568198?mt=8" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Let Me Zoom" src-swap-high-dpi="http://is5.mzstatic.com/image/thumb/Purple49/v4/b3/70/00/b370009c-1ccd-c8eb-c40c-6a2966d6a290/source/150x150bb.jpg" src-load-auto-after-dom-load="" src-swap="http://is5.mzstatic.com/image/thumb/Purple49/v4/b3/70/00/b370009c-1ccd-c8eb-c40c-6a2966d6a290/source/75x75bb.jpg" class="artwork" src="https://s.mzstatic.com/htmlResources/50e8/frameworks/images/p.png" />
+    
+    <span class="mask"></span>
+    
+</div></a>
+  
+  <div class="lockup-info">
+    
+    
+    
+    <ul role="presentation" class="list"><li><a href="https://itunes.apple.com/us/app/let-me-zoom/id916568198?mt=8" class="name">Let Me Zoom</a></li><li><a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/us/app/let-me-zoom/id916568198?mt=8&#39;);" href="#" class="action view-in-itunes"><span>View in iTunes</span></a></li></ul>
+  </div>
+</div>
+</li><li>
+<div rating-software="100,itunes-games" parental-rating="1" role="group" metrics-loc="Lockup_" adam-id="941296959" preview-artist="Pavlos Tsochantaris" aria-label="Smile For Real" preview-title="Smile For Real" class="lockup small application">
+  
+    <a href="https://itunes.apple.com/us/app/smile-for-real/id941296959?mt=8" class="artwork-link"><div class="artwork">
+    <img width="75" height="75" alt="Smile For Real" src-swap-high-dpi="http://is2.mzstatic.com/image/thumb/Purple49/v4/80/58/5b/80585bd5-d880-39da-03ee-89044f140787/source/150x150bb.jpg" src-load-auto-after-dom-load="" src-swap="http://is2.mzstatic.com/image/thumb/Purple49/v4/80/58/5b/80585bd5-d880-39da-03ee-89044f140787/source/75x75bb.jpg" class="artwork" src="https://s.mzstatic.com/htmlResources/50e8/frameworks/images/p.png" />
+    
+    <span class="mask"></span>
+    
+</div></a>
+  
+  <div class="lockup-info">
+    
+    
+    
+    <ul role="presentation" class="list"><li><a href="https://itunes.apple.com/us/app/smile-for-real/id941296959?mt=8" class="name">Smile For Real</a></li><li><a onclick="return its.detect.openItunes(&#39;https://itunes.apple.com/us/app/smile-for-real/id941296959?mt=8&#39;);" href="#" class="action view-in-itunes"><span>View in iTunes</span></a></li></ul>
+  </div>
+</div>
+</li></ul>
+  
+  
+</div>
+
+          </div>
+        </div> 
+      </div>
+    </div>
+    
+  
+  </div>
+
+    
+    
+    
+    <object classID="CLSID:D719897A-B07A-4C0C-AEA9-9B663A28DFCB" width="1" height="1" id="iTunesDetectorIE" ></object>
+    <script type="text/javascript">itms.PageData.itunesDownloadUrl='http://www.apple.com/itunes/download/?id=1257526927';</script>
+
+  
+  
+      <div id="socialwrapper">
+        <aside class="social selfclear"><section class="column first"><h1><img src="https://www.apple.com/itunes/shared/itunes-this-week/images/social_appstore_title.png" alt="App Store on Facebook and Twitter" width="261" height="20"></h1>
+		<iframe src="//www.facebook.com/plugins/like.php?app_id=116556461780510&amp;href=http%3A%2F%2Fwww.facebook.com%2FAppStore&amp;send=false&amp;layout=box_count&amp;width=85&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=lucida+grande&amp;height=75&amp;locale=en_US" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:85px; height:75px;" allowtransparency="true" class="right"></iframe>
+		<img src="https://www.apple.com/global/elements/itunesmodule/facebook_appstore_icon.png" alt="" width="55" height="55" class="left"><p>Discover and share<br> new apps.</p>
+		<p class="nopad">Follow us on <a href="http://tw.appstore.com/M7e">@AppStore</a>.</p>
+	</section><section class="column"><h1><img src="https://www.apple.com/itunes/shared/itunes-this-week/images/social_itunes_facebook_title.png" alt="iTunes on Facebook" width="146" height="20"></h1>
+		<iframe src="//www.facebook.com/plugins/like.php?app_id=161583840592879&amp;href=http%3A%2F%2Fwww.facebook.com%2FiTunes&amp;send=false&amp;layout=box_count&amp;width=85&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=lucida+grande&amp;height=75&amp;locale=en_US" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:85px; height:75px;" allowtransparency="true" class="right"></iframe>
+		<img src="https://www.apple.com/global/elements/itunesmodule/facebook_itunes_icon.png" alt="" width="55" height="55" class="left"><p>Discover and share new music, movies, TV, books, and more.</p>
+	</section><section class="column last"><h1><img src="https://www.apple.com/itunes/shared/itunes-this-week/images/social_itunes_twitter_title.png" alt="iTunes on Twitter" width="126" height="20"></h1>
+		<img src="https://www.apple.com/global/elements/itunesmodule/twitter_icon.png" alt="" width="55" height="55" class="left"><p>Follow us <a href="http://tw.itunes.com/H8a">@iTunes</a> and discover <br>new iTunes Radio Stations<br> and the music we love.</p>
+	</section></aside>
+      </div>
+  
+  
+  <footer id="ac-globalfooter" class="no-js" lang="en-US" data-analytics-region="global footer" role="contentinfo"><div class="ac-gf-content"><nav class="ac-gf-breadcrumbs" aria-label="Breadcrumbs" role="navigation">
+	<a href="//www.apple.com/" class="home ac-gf-breadcrumbs-home">
+		<span class="ac-gf-breadcrumbs-home-icon" aria-hidden="true"></span>
+		<span class="ac-gf-breadcrumbs-home-label">Apple</span>
+		<span class="ac-gf-breadcrumbs-home-chevron"></span>
+		<span class="ac-gf-breadcrumbs-home-mask"></span>
+	</a>
+	<div class="ac-gf-breadcrumbs-path">
+		<ol class="ac-gf-breadcrumbs-list" vocab="http://schema.org/" typeof="BreadcrumbList">
+			<li class="ac-gf-breadcrumbs-item" property="itemListElement" typeof="ListItem"><span property="name">iTunes</span><meta property="position" content="1" /></li>
+		</ol>
+	</div>
+</nav>
+<nav class="ac-gf-directory with-5-columns" aria-label="Apple Directory" role="navigation">
+	<!--googleoff: all-->
+	<div class="ac-gf-directory-column"><input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-products" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-products">
+		<h3 class="ac-gf-directory-column-section-title">Shop and Learn</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-products" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+				<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+			</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+				<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+			</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/mac/">Mac</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/ipad/">iPad</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/iphone/">iPhone</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/watch/">Watch</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/tv/">TV</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/music/">Music</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/itunes/">iTunes</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/ipod/">iPod</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/us/shop/goto/buy_accessories">Accessories</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/us/shop/goto/giftcards">Gift Cards</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ac-gf-directory-column"><input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-storeservices" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-storeservices">
+		<h3 class="ac-gf-directory-column-section-title">Apple Store</h3>
+	</label>
+			<a href="#ac-gf-directory-column-section-state-storeservices" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+				<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+			</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+				<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+			</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/retail/">Find a Store</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/retail/geniusbar/">Genius Bar</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/retail/learn/">Workshops and Learning</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/retail/learn/youth/">Youth Programs</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://itunes.apple.com/app/apple-store/id375380948?pt&#x3D;2003&amp;ct&#x3D;footer&amp;mt&#x3D;8">Apple Store App</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/us/shop/goto/special_deals">Refurbished and Clearance</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/us/shop/goto/payment_plan">Financing</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/us/shop/goto/reuse_and_recycle">Reuse and Recycling</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/us/shop/goto/account">Order Status</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/us/shop/goto/help">Shopping Help</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ac-gf-directory-column">
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-education" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-education">
+								<h3 class="ac-gf-directory-column-section-title">For Education</h3>
+							</label>
+			<a href="#ac-gf-directory-column-section-state-education" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+				<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+			</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+				<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+			</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/education/">Apple and Education</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/us/shop/goto/educationrouting">Shop for College</a></li>
+			</ul>
+		</div>
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-business" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-business">
+								<h3 class="ac-gf-directory-column-section-title">For Business</h3>
+							</label>
+			<a href="#ac-gf-directory-column-section-state-business" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+				<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+			</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+				<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+			</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/business/">Apple and Business</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/retail/business/">Shop for Business</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ac-gf-directory-column">
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-accounts" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-accounts">
+								<h3 class="ac-gf-directory-column-section-title">Account</h3>
+							</label>
+			<a href="#ac-gf-directory-column-section-state-accounts" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+				<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+			</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+				<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+			</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://appleid.apple.com/us/">Manage Your Apple ID</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/us/shop/goto/account">Apple Store Account</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="https://www.icloud.com">iCloud.com</a></li>
+			</ul>
+		</div>
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-responsibility" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-responsibility">
+								<h3 class="ac-gf-directory-column-section-title">Apple Values</h3>
+							</label>
+			<a href="#ac-gf-directory-column-section-state-responsibility" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+				<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+			</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+				<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+			</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/accessibility/">Accessibility</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/education/connectED/">Education</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/environment/">Environment</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/diversity/">Inclusion and Diversity</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/privacy/">Privacy</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/supplier-responsibility/">Supplier Responsibility</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ac-gf-directory-column">
+		<input class="ac-gf-directory-column-section-state" type="checkbox" id="ac-gf-directory-column-section-state-about" />
+		<div class="ac-gf-directory-column-section">
+			<label class="ac-gf-directory-column-section-label" for="ac-gf-directory-column-section-state-about">
+						<h3 class="ac-gf-directory-column-section-title">About Apple</h3>
+					</label>
+			<a href="#ac-gf-directory-column-section-state-about" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open">
+				<span class="ac-gf-directory-column-section-anchor-label">Open Menu</span>
+			</a>
+			<a href="#" class="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close">
+				<span class="ac-gf-directory-column-section-anchor-label">Close Menu</span>
+			</a>
+			<ul class="ac-gf-directory-column-section-list">
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/about/">Apple Info</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/newsroom/">Newsroom</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/jobs/us/">Job Opportunities</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/pr/">Press Info</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="http://investor.apple.com">Investors</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/apple-events/">Events</a></li>
+				<li class="ac-gf-directory-column-section-item"><a class="ac-gf-directory-column-section-link" href="//www.apple.com/contact/">Contact Apple</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--googleon: all-->
+</nav>
+<section class="ac-gf-footer">
+	<div class="ac-gf-footer-shop" x-ms-format-detection="none">
+		More ways to shop: Visit an <a href="//www.apple.com/retail/">Apple Store</a>, <span class="nowrap">call 1-800-MY-APPLE, or <a href="https://locate.apple.com/">find a reseller</a></span>.
+	</div>
+	<div class="ac-gf-footer-locale">
+		<a class="ac-gf-footer-locale-link" href="//www.apple.com/choose-your-country/" title="Choose your country or region" aria-label="United States. Choose your country or region"><span class="ac-gf-footer-locale-flag" data-hires="false"></span>United States</a>
+	</div>
+	<div class="ac-gf-footer-legal">
+		<div class="ac-gf-footer-legal-copyright">Copyright &copy; 2017 Apple Inc. All rights reserved.</div>
+		<div class="ac-gf-footer-legal-links">
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/privacy/privacy-policy/">Privacy Policy</a>
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/legal/internet-services/terms/site.html">Terms of Use</a>
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/us/shop/goto/help/sales_refunds">Sales and Refunds</a>
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/legal/">Legal</a>
+			<a class="ac-gf-footer-legal-link" href="//www.apple.com/sitemap/">Site Map</a>
+		</div>
+	</div>
+</section>
+</div></footer><script type="text/javascript" src="https://www.apple.com/ac/globalfooter/3/en_US/scripts/ac-globalfooter.built.js"></script>
+  <script language="JavaScript" type="text/javascript"><!--
+
+    var iTSMetricsCallbackFunction = function() {
+	    ITSMetrics.reportingSuite = "appleitmswww,appleitmsus";
+	    ITSMetrics.omniture = ITSMetrics.createBaselineOmnitureObject();
+	    
+	    
+	    
+	    
+	    
+	
+	    /* Page Metrics */
+	    ITSMetrics.omniture.pageName="SEO-Software-US-Pavlos Tsochantaris-Gladys-1257526927";
+ITSMetrics.omniture.channel="SEO";
+ITSMetrics.omniture.prop22="HTML";
+ITSMetrics.omniture.eVar22="HTML";
+ITSMetrics.omniture.products="Pavlos Tsochantaris-Gladys-1257526927";
+
+	    
+	    
+	    
+	    /* User Agent */
+	    var userAgentForMetrics = ITSMetrics.userAgentForMetrics();
+	    ITSMetrics.omniture.prop12 = userAgentForMetrics;
+	    ITSMetrics.omniture.eVar12 = userAgentForMetrics;
+	    
+	    // check if Game Center
+	    var gcUserAgent = "GameCenter";
+	    var isGameCenter = userAgentForMetrics.length >= gcUserAgent.length && userAgentForMetrics.substr(0, gcUserAgent.length) == gcUserAgent;
+	    if (isGameCenter) {
+	        // prepend "GameCenter" to page and channel name
+	        if (ITSMetrics.omniture.pageName) ITSMetrics.omniture.pageName = "GameCenter-" + ITSMetrics.omniture.pageName;
+	        if (ITSMetrics.omniture.channel) ITSMetrics.omniture.channel = "GameCenter-" + ITSMetrics.omniture.channel;
+	    }
+	    
+	    
+	    /* Browser Plugins */
+	    ITSMetrics.shouldTrackBrowserPlugins = false;
+	    
+	    /* Pass-thru query params */
+	    ITSMetrics.processQueryParameterInfoInCurrentRequest(ITSMetrics.omniture);
+	    
+	    if (ITSMetrics.isOmnitureSupportedOnClient()) {
+	        ITSMetrics.emitPagePing = function() {
+				if(ITSMetrics.isPageMetricsEnabled){
+					var s_code=ITSMetrics.omniture.t();
+					if (s_code) {
+						var containingDiv = document.createElement('div');
+						containingDiv.innerHTML = s_code;
+						document.body.appendChild(containingDiv);
+					}
+				}
+                // Even though Omniture is disabled, we still want to make a ping to Figaro for Preview
+				//<rdar://problem/23903484> Disable all Omniture pings sent directly from clients
+                if (window.webPreview) {
+                    var queryParams = {};
+                    queryParams.responseType="image";
+                    queryParams.eventVersion = 1;  // begin query parameters
+                    queryParams.eventType = "page";  // hardcoded
+
+                    var time = new Date();
+                    queryParams.eventTime = time.getTime();
+                    queryParams.pageName = ITSMetrics.omniture.pageName;
+                    queryParams.pageUrl = window.location.href;  // current page url
+                    queryParams.refUrl = document.referrer; //Refer
+                    queryParams.pageType = ITSMetrics.omniture.channel; //Channel
+
+                    queryParams.userAgent = window.navigator.userAgent; //User agent
+
+                    queryParams.screenWidth = screen.width;
+                    queryParams.screenHeight = screen.height; // screen size
+
+                    queryParams.windowInnerWidth = window.innerWidth;  // browser width
+                    queryParams.windowInnerHeight = window.innerHeight;  // browser height
+
+                    queryParams.app = navigator.appName;
+
+                    var url = "https://xp.apple.com/report/2/xp_its_preview";
+
+                    url = its.url.appendUrlParameters(url, queryParams);
+                    var image = new Image();
+                    image.src = url;
+                }
+	        };
+	        its.x.addEventListener(window, 'load', function() { window.setTimeout(ITSMetrics.emitPagePing, 1) }, false );
+	    }
+    };
+
+    if (!window["ITSMetrics"]){ 
+	    iTSDefer.register(function() {
+	        iTSMetricsCallbackFunction();
+	    });
+    } else {
+        iTSMetricsCallbackFunction();
+    }
+--></script>
+    <script>
+        if (!window.its) {
+            window.its = {};
+        }
+        window.its.markupLoadEndTime = new Date().getTime();
+    </script>
+
+
+
+</body>
+
+
+
+</html>
